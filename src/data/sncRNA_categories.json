@@ -1,0 +1,962 @@
+[
+  {
+    "id": "gga-miR-21-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 2242.9,
+    "sequence": "ACCGUACGAGUGAAGGCGUGGC"
+  },
+  {
+    "id": "gga-miR-22-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 3566.8,
+    "sequence": "UACUGAGAUAAAGUAGAGAGAG"
+  },
+  {
+    "id": "gga-miR-26-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 4004.8,
+    "sequence": "GUACCUAGGUUCCAAGCGUUAA"
+  },
+  {
+    "id": "gga-miR-29-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 2569.9,
+    "sequence": "CGGCGGUGGGAUCUCUAGUCCU"
+  },
+  {
+    "id": "gga-miR-30-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 2078.6,
+    "sequence": "AAGGAGAUUCUAUAUGCGAAGA"
+  },
+  {
+    "id": "gga-miR-31-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 2474.3,
+    "sequence": "CAUGAGUGGGUCUUUACCUAAG"
+  },
+  {
+    "id": "gga-miR-34-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 1389,
+    "sequence": "CCUUAAGUAUCCACGUGUGGGA"
+  },
+  {
+    "id": "gga-miR-122-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 3905.6,
+    "sequence": "CGUUUUAUUCGUCAGGGACACG"
+  },
+  {
+    "id": "gga-piR-041700",
+    "type": "piRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 19772.9,
+    "sequence": "UUCCGAUGAUCGUCGAAUGCGUUACUAGUG"
+  },
+  {
+    "id": "gga-piR-042017",
+    "type": "piRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 7743.4,
+    "sequence": "AUGUACUAGAUGUCACAUAGAUUUCGCUUU"
+  },
+  {
+    "id": "gga-piR-042334",
+    "type": "piRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 15271.3,
+    "sequence": "UAUAUUGGAAAACGCCAAUCCAGGGGAUUG"
+  },
+  {
+    "id": "gga-piR-042651",
+    "type": "piRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 10804.1,
+    "sequence": "CUCCGUCUCCAGCACGGGGCAUUGAAGCAU"
+  },
+  {
+    "id": "gga-tsRNA-Gly-GCC-i",
+    "type": "tsRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 924.5,
+    "sequence": "GACCUCCCCGUAGUUAGA"
+  },
+  {
+    "id": "gga-tsRNA-Ala-GCU-5p",
+    "type": "tsRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 1074.2,
+    "sequence": "GAGCUUAAGUCAGGUUAG"
+  },
+  {
+    "id": "gga-tsRNA-Val-GUC-3p",
+    "type": "tsRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 1926.1,
+    "sequence": "AUGGUGUUCCCCACAGAA"
+  },
+  {
+    "id": "gga-tsRNA-Leu-CUG-i",
+    "type": "tsRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 520.8,
+    "sequence": "CAACAUUAAAUUUAUCUC"
+  },
+  {
+    "id": "gga-tsRNA-Ile-AUC-5p",
+    "type": "tsRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 159.2,
+    "sequence": "AAAUGGCAUGUUAGUAGU"
+  },
+  {
+    "id": "gga-rsRNA-28S-1000",
+    "type": "rsRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 737.7,
+    "sequence": "GUACCGUCUAAUUCAUGUUU"
+  },
+  {
+    "id": "gga-rsRNA-18S-1043",
+    "type": "rsRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 121.2,
+    "sequence": "GAGGCUUCAAACCGGGGCUC"
+  },
+  {
+    "id": "gga-rsRNA-5.8S-1086",
+    "type": "rsRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "expression": 505,
+    "sequence": "AUGCAGCAUCCUCUAAGGAA"
+  },
+  {
+    "id": "gga-miR-126-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 4808.6,
+    "sequence": "UAUAGACCACUACUCGCAUCGA"
+  },
+  {
+    "id": "gga-miR-146-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 3643.5,
+    "sequence": "UUACGUUGACAUGCUAACCCAG"
+  },
+  {
+    "id": "gga-miR-155-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 4734.1,
+    "sequence": "CACGGAGGUUGGUGGCUGGACC"
+  },
+  {
+    "id": "gga-miR-181-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 3654,
+    "sequence": "UCCUCGUGGAAGAUAUCGAGCU"
+  },
+  {
+    "id": "gga-miR-200-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 808.9,
+    "sequence": "AAUCAUCUCCAUCCGUCGUGAC"
+  },
+  {
+    "id": "gga-miR-205-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 4243.2,
+    "sequence": "AGUGUGGUCUAAGCCAGCGCCG"
+  },
+  {
+    "id": "gga-miR-210-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 435.2,
+    "sequence": "CCGGGUCUGAAUCUAAGCAUAG"
+  },
+  {
+    "id": "gga-miR-221-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 4744.5,
+    "sequence": "CCCAUUGUUUUCACGGUAGCUG"
+  },
+  {
+    "id": "gga-piR-042968",
+    "type": "piRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 10237.5,
+    "sequence": "CUGAGUGAGAAUGUAGGGGAGGAUGAAAGA"
+  },
+  {
+    "id": "gga-piR-043285",
+    "type": "piRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 19485,
+    "sequence": "GCGAAUCAACCACGUCUGAGGAGUUUAUGG"
+  },
+  {
+    "id": "gga-piR-043602",
+    "type": "piRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 2730.8,
+    "sequence": "CUCUCGGGGCGGGGAGUUAGCAGGCUUCAC"
+  },
+  {
+    "id": "gga-piR-043919",
+    "type": "piRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 14270.6,
+    "sequence": "UGUAGUCCAGUUAAAGCCUAGCAAAUUCUU"
+  },
+  {
+    "id": "gga-tsRNA-Pro-CCU-3p",
+    "type": "tsRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 1983.4,
+    "sequence": "AAGUGUGGAGGGGCUACG"
+  },
+  {
+    "id": "gga-tsRNA-Phe-UUC-i",
+    "type": "tsRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 1741.7,
+    "sequence": "UGCAGAUUAUGUGACGAG"
+  },
+  {
+    "id": "gga-tsRNA-Trp-UGG-5p",
+    "type": "tsRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 1638.8,
+    "sequence": "UCGAGCUCAGUGGUGAUA"
+  },
+  {
+    "id": "gga-tsRNA-Met-AUG-3p",
+    "type": "tsRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 1616.8,
+    "sequence": "GCCAUGUCGAUGUUGUAA"
+  },
+  {
+    "id": "gga-tsRNA-Ser-UCU-i",
+    "type": "tsRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 1420.9,
+    "sequence": "AACGCUACCGUGUUCAUG"
+  },
+  {
+    "id": "gga-rsRNA-5S-1129",
+    "type": "rsRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 738.3,
+    "sequence": "GUAGGUGCAAGCGGCUUUUA"
+  },
+  {
+    "id": "gga-rsRNA-28S-1172",
+    "type": "rsRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 693,
+    "sequence": "GGGGCUAGUCUAAGCGGCCG"
+  },
+  {
+    "id": "gga-rsRNA-18S-1215",
+    "type": "rsRNA",
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "expression": 712.2,
+    "sequence": "AACAUUCAAGAUAUGUACGG"
+  },
+  {
+    "id": "gga-miR-222-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 2336.3,
+    "sequence": "GAUAAUCGAACUCUCCACCGAC"
+  },
+  {
+    "id": "gga-miR-17-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 4263.6,
+    "sequence": "UUCAGCGGCUCGGUGCCUGACC"
+  },
+  {
+    "id": "gga-miR-92-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 473.8,
+    "sequence": "GAUUCUGCAAUACUUCGCGUUG"
+  },
+  {
+    "id": "gga-miR-93-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 959.8,
+    "sequence": "AGCCGUGCCAAUACGUGAUUAG"
+  },
+  {
+    "id": "gga-miR-106-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 4917.8,
+    "sequence": "UAAACCACUUCAACUCUCAGUU"
+  },
+  {
+    "id": "gga-miR-107-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 3506,
+    "sequence": "GUCUACUCCCACAGAGAAUUCG"
+  },
+  {
+    "id": "gga-miR-125-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 293.6,
+    "sequence": "UUUCAGCUCAUCACGUCCGAUC"
+  },
+  {
+    "id": "gga-miR-132-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 436.4,
+    "sequence": "AGACAAACCUAGCCAGUAAUCA"
+  },
+  {
+    "id": "gga-piR-044236",
+    "type": "piRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 12038.6,
+    "sequence": "AUCUGAAAAACGGUAGUUCAUAAAGAACUA"
+  },
+  {
+    "id": "gga-piR-044553",
+    "type": "piRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 19366.1,
+    "sequence": "AACCUAUACAAAGAUGGGGAGCAUACGCGC"
+  },
+  {
+    "id": "gga-piR-044870",
+    "type": "piRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 2341.1,
+    "sequence": "CCCAUACGUAGGUAUCGUUAGCAGAUUUGU"
+  },
+  {
+    "id": "gga-piR-045187",
+    "type": "piRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 3288.8,
+    "sequence": "UCAACUCCUUAACUUCCUUUGGAGGAGUCG"
+  },
+  {
+    "id": "gga-tsRNA-Thr-ACU-5p",
+    "type": "tsRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 1321.6,
+    "sequence": "GGCGGUGUCUGAGCGUCC"
+  },
+  {
+    "id": "gga-tsRNA-Cys-UGU-3p",
+    "type": "tsRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 1111,
+    "sequence": "CCCGUAAAUAAUAAAAAA"
+  },
+  {
+    "id": "gga-tsRNA-Tyr-UAC-i",
+    "type": "tsRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 1734.8,
+    "sequence": "UGACGUUAAUUCUCGUAG"
+  },
+  {
+    "id": "gga-tsRNA-His-CAC-5p",
+    "type": "tsRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 552.4,
+    "sequence": "CUUUGUUUAUGUACCAAC"
+  },
+  {
+    "id": "gga-tsRNA-Lys-AAG-3p",
+    "type": "tsRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 126.6,
+    "sequence": "UGUACGUCCGGGGACCCA"
+  },
+  {
+    "id": "gga-rsRNA-5.8S-1258",
+    "type": "rsRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 488.2,
+    "sequence": "CCAAUCACUGGCUCAGCUAG"
+  },
+  {
+    "id": "gga-rsRNA-5S-1301",
+    "type": "rsRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 778.6,
+    "sequence": "AGCAAAAGUCGACAUGUGGU"
+  },
+  {
+    "id": "gga-rsRNA-28S-1344",
+    "type": "rsRNA",
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "expression": 731.6,
+    "sequence": "GCCCCCCUUUUCGUGUUUAG"
+  },
+  {
+    "id": "gga-miR-133-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 2220,
+    "sequence": "AAGAAAGUUGAUCUGCCUCCGG"
+  },
+  {
+    "id": "gga-miR-139-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 3230.7,
+    "sequence": "AAGCUCGAGUCGCUUGAUUACA"
+  },
+  {
+    "id": "gga-miR-140-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 4690.5,
+    "sequence": "CGACGCAAUUCCUAUCGUCAUG"
+  },
+  {
+    "id": "gga-miR-143-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 2739.8,
+    "sequence": "CAUGGUGGCAGGGCAGGAAAGC"
+  },
+  {
+    "id": "gga-miR-145-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 2587.4,
+    "sequence": "GUUUGGAGAAUCGAGGGAUUCC"
+  },
+  {
+    "id": "gga-miR-150-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 1938.3,
+    "sequence": "CUAGAGUAUACAAUGAGCGCUU"
+  },
+  {
+    "id": "gga-miR-182-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 92.5,
+    "sequence": "ACAACUAACCCUGUCCAUGCGG"
+  },
+  {
+    "id": "gga-miR-183-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 4739.6,
+    "sequence": "CAGCCGGUGCGAACUGUACGAU"
+  },
+  {
+    "id": "gga-piR-045504",
+    "type": "piRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 14462.4,
+    "sequence": "UCACCUGGCGCCCGAACCCUUAAUACCAUA"
+  },
+  {
+    "id": "gga-piR-045821",
+    "type": "piRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 8335.5,
+    "sequence": "CGCGUUCACCGCCAUAUGGCGUACAGCCUC"
+  },
+  {
+    "id": "gga-piR-046138",
+    "type": "piRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 15037.2,
+    "sequence": "GGCAGUCCCGAUGAACUUCUCUACGUCCUC"
+  },
+  {
+    "id": "gga-piR-046455",
+    "type": "piRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 17666.2,
+    "sequence": "UGACGAUUGAGACGGGAUCAGAGGACGCUA"
+  },
+  {
+    "id": "gga-tsRNA-Arg-CGU-i",
+    "type": "tsRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 1724.4,
+    "sequence": "UAGUAAGCGCGAUACUGU"
+  },
+  {
+    "id": "gga-tsRNA-Asp-GAC-5p",
+    "type": "tsRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 284.5,
+    "sequence": "UACGCCCUCCUUAAGCAG"
+  },
+  {
+    "id": "gga-tsRNA-Glu-GAG-3p",
+    "type": "tsRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 22.4,
+    "sequence": "CUGGCGAAACCGUAGUCC"
+  },
+  {
+    "id": "gga-tsRNA-Asn-AAC-i",
+    "type": "tsRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 1046,
+    "sequence": "CACCUUCCUAUCAUAGUG"
+  },
+  {
+    "id": "gga-tsRNA-Gln-CAG-5p",
+    "type": "tsRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 1592.2,
+    "sequence": "GUAUCUGAUCUAGCAGGG"
+  },
+  {
+    "id": "gga-rsRNA-18S-1387",
+    "type": "rsRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 341.4,
+    "sequence": "AAGAUGGAGGAACUGUUGGU"
+  },
+  {
+    "id": "gga-rsRNA-5.8S-1430",
+    "type": "rsRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 310.8,
+    "sequence": "GUGUAUACCGGCCAUCAAAA"
+  },
+  {
+    "id": "gga-rsRNA-5S-1473",
+    "type": "rsRNA",
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "expression": 119.5,
+    "sequence": "UUGGGGAGGCACUAGAGGAG"
+  },
+  {
+    "id": "gga-miR-184-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 3363.4,
+    "sequence": "GAGAGAGGCUAUAACAUUCGGG"
+  },
+  {
+    "id": "gga-miR-193-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 2796.6,
+    "sequence": "CCCAGCGAUCACUUAGAGUGUC"
+  },
+  {
+    "id": "gga-miR-195-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 2298.9,
+    "sequence": "CCUGAUCGACGGGACAACUCUA"
+  },
+  {
+    "id": "gga-miR-196-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 2581,
+    "sequence": "GAAUCUGUGAACUUCCGCACGU"
+  },
+  {
+    "id": "gga-miR-199-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 3553.6,
+    "sequence": "GCUCCCAGACACCUACAGCCCC"
+  },
+  {
+    "id": "gga-miR-203-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 2330.2,
+    "sequence": "UCACUCGGCCGCCUCGUUCCGU"
+  },
+  {
+    "id": "gga-miR-206-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 4711.3,
+    "sequence": "GAGUAUGCAGGAAUGACAUGGU"
+  },
+  {
+    "id": "gga-miR-214-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 3258.6,
+    "sequence": "AGUUUAUUCGGCGCCAAAGUCA"
+  },
+  {
+    "id": "gga-piR-046772",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 12803.5,
+    "sequence": "GGGCGAAGGACUCUAGGCAGCAUAAGGCAU"
+  },
+  {
+    "id": "gga-piR-047089",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 2005.2,
+    "sequence": "UCAGCAUAUCAGAAUAGCUUGAGCUACAAG"
+  },
+  {
+    "id": "gga-piR-047406",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 333.7,
+    "sequence": "GGCAUUUCAUACAGCAUUAGCAGACGUGAC"
+  },
+  {
+    "id": "gga-piR-047723",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 17911.9,
+    "sequence": "AAAGAAACGACAAUGAACUCCAGUCUUCAC"
+  },
+  {
+    "id": "gga-tsRNA-Gly-GCC-3p",
+    "type": "tsRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 948.7,
+    "sequence": "UAGGUACGAACUCGGACG"
+  },
+  {
+    "id": "gga-tsRNA-Ala-GCU-i",
+    "type": "tsRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 385.7,
+    "sequence": "CAAAACGCCUAACAAGCC"
+  },
+  {
+    "id": "gga-tsRNA-Val-GUC-5p",
+    "type": "tsRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 312.8,
+    "sequence": "CCGGUGCCUUUUAUAUUG"
+  },
+  {
+    "id": "gga-tsRNA-Leu-CUG-3p",
+    "type": "tsRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 766,
+    "sequence": "CACCACAGGAUAUGAUGA"
+  },
+  {
+    "id": "gga-tsRNA-Ile-AUC-i",
+    "type": "tsRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 603.4,
+    "sequence": "UCCAUCCCUAUCCUUCUC"
+  },
+  {
+    "id": "gga-rsRNA-28S-1516",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 110.2,
+    "sequence": "CUUGGACGCCGGGUGCAAGG"
+  },
+  {
+    "id": "gga-rsRNA-18S-1559",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 568.8,
+    "sequence": "GCCACGGUUUCAAGCUGGAU"
+  },
+  {
+    "id": "gga-rsRNA-5.8S-1602",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "expression": 97,
+    "sequence": "CCAAGGUAAACGAUAUACUG"
+  },
+  {
+    "id": "gga-miR-218-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 1386.1,
+    "sequence": "CGUGGUGUUUUUCGGUCGGCAC"
+  },
+  {
+    "id": "gga-miR-375-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 1027.1,
+    "sequence": "UGGGCGUGAGCGAGAUUAUCCA"
+  },
+  {
+    "id": "gga-miR-429-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 636.4,
+    "sequence": "GCACAGACUGACGACUCUUUGG"
+  },
+  {
+    "id": "gga-miR-451-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 379.4,
+    "sequence": "GGAUCUCCGAGGUUAACGGUUC"
+  },
+  {
+    "id": "gga-miR-7-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 217.6,
+    "sequence": "CCCAGCAGACGUCUAUGCGUGU"
+  },
+  {
+    "id": "gga-miR-9-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 3075.7,
+    "sequence": "GCGAACGAUCUAUUGACGACGC"
+  },
+  {
+    "id": "gga-miR-10-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 3760.4,
+    "sequence": "AUACAAUAGCGAACAUGUAUGC"
+  },
+  {
+    "id": "gga-miR-15-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 557.3,
+    "sequence": "UUAAAUAACUCCUCUACGGCCU"
+  },
+  {
+    "id": "gga-piR-048040",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 3087.8,
+    "sequence": "GGAACGCAGUCGACGAUUGCGUGAAUACAG"
+  },
+  {
+    "id": "gga-piR-048357",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 14684.9,
+    "sequence": "GUAUCUCUACCAACUUAGUGUUUAAUCGGC"
+  },
+  {
+    "id": "gga-piR-048674",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 17639.5,
+    "sequence": "CUUCGUCUUAGUAAAAGAUUAUUAUUAAUA"
+  },
+  {
+    "id": "gga-piR-048991",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 7675,
+    "sequence": "CUUUUGUCAGCAAUCAGAAGGUCGUGACCC"
+  },
+  {
+    "id": "gga-tsRNA-Pro-CCU-5p",
+    "type": "tsRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 394.9,
+    "sequence": "UACGAUCUAGUCAGAUGA"
+  },
+  {
+    "id": "gga-tsRNA-Phe-UUC-3p",
+    "type": "tsRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 961.8,
+    "sequence": "UCAGAAUUGCGUGAAGAU"
+  },
+  {
+    "id": "gga-tsRNA-Trp-UGG-i",
+    "type": "tsRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 336.1,
+    "sequence": "AGAAAGUGUCACGUUACG"
+  },
+  {
+    "id": "gga-tsRNA-Met-AUG-5p",
+    "type": "tsRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 1143.4,
+    "sequence": "CGAGCGUUUGGGUAUAGG"
+  },
+  {
+    "id": "gga-tsRNA-Ser-UCU-3p",
+    "type": "tsRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 267.8,
+    "sequence": "GUCCUUUCCACAUUGAGA"
+  },
+  {
+    "id": "gga-rsRNA-5S-1645",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 498.7,
+    "sequence": "ACUUGUCGUCAUGGAAUAUU"
+  },
+  {
+    "id": "gga-rsRNA-28S-1688",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 746,
+    "sequence": "GGGCCUGUAACUACAUGCAU"
+  },
+  {
+    "id": "gga-rsRNA-18S-1731",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "expression": 478.2,
+    "sequence": "CCAGGCUCCUCGACGUUUUC"
+  }
+]

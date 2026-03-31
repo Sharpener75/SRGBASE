@@ -1,0 +1,20 @@
+{
+  "totalSncRNAs": 4821,
+  "tissues": 3,
+  "timepoints": 2,
+  "libraries": 12,
+  "hpoCallouts": {
+    "Hypothalamus": {
+      "16w": { "miRNA": 312, "piRNA": 87, "tsRNA": 145, "rsRNA": 63, "readPct": { "miRNA": 52.1, "piRNA": 14.5, "tsRNA": 24.2, "rsRNA": 9.2 } },
+      "35w": { "miRNA": 341, "piRNA": 102, "tsRNA": 158, "rsRNA": 71, "readPct": { "miRNA": 49.8, "piRNA": 17.3, "tsRNA": 23.1, "rsRNA": 9.8 } }
+    },
+    "Pituitary": {
+      "16w": { "miRNA": 289, "piRNA": 143, "tsRNA": 121, "rsRNA": 55, "readPct": { "miRNA": 47.6, "piRNA": 23.5, "tsRNA": 19.9, "rsRNA": 9.0 } },
+      "35w": { "miRNA": 305, "piRNA": 178, "tsRNA": 134, "rsRNA": 62, "readPct": { "miRNA": 44.9, "piRNA": 26.2, "tsRNA": 19.7, "rsRNA": 9.2 } }
+    },
+    "Ovary": {
+      "16w": { "miRNA": 198, "piRNA": 412, "tsRNA": 89, "rsRNA": 44, "readPct": { "miRNA": 26.4, "piRNA": 54.9, "tsRNA": 11.9, "rsRNA": 6.8 } },
+      "35w": { "miRNA": 221, "piRNA": 587, "tsRNA": 97, "rsRNA": 51, "readPct": { "miRNA": 22.8, "piRNA": 60.5, "tsRNA": 10.0, "rsRNA": 6.7 } }
+    }
+  }
+}
