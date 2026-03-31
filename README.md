@@ -14,7 +14,7 @@ A public bioinformatics database for small non-coding RNA (sncRNA) sequencing da
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/pingbase.git
+git clone https://github.com/ShiZhangYue/pingbase.git
 cd pingbase
 npm install
 ```
