@@ -32,16 +32,13 @@ function computePWM(sequences: string[], seqLen: number) {
       }
     }
     if (total === 0) {
-      positions.push({ A: 0.25, U: 0.25, G: 0.25, C: 0.25, IC: 0 })
+      positions.push({ A: 0.25, U: 0.25, G: 0.25, C: 0.25 })
     } else {
       const freqs: Record<string, number> = {}
-      let H = 0
       for (const n of NUCS) {
         freqs[n] = counts[n] / total
-        if (freqs[n] > 0) H -= freqs[n] * Math.log2(freqs[n])
       }
-      const IC = Math.max(0, 2 - H)
-      positions.push({ ...freqs, IC })
+      positions.push(freqs)
     }
   }
   return positions
@@ -76,7 +73,6 @@ export default function SequenceLogo({ sequences, title, maxWidth = 400, height 
       <div className="bg-white rounded-lg border border-gray-100 p-3 overflow-x-auto">
         <svg width={svgW} height={height} style={{ display: 'block' }}>
           {pwm.map((pos, i) => {
-            const IC = pos.IC as number
             const x = i * colW
 
             // Sort nucleotides by frequency ascending (smallest at bottom)
@@ -88,7 +84,7 @@ export default function SequenceLogo({ sequences, title, maxWidth = 400, height 
             return (
               <g key={i}>
                 {sorted.map(({ n, f }) => {
-                  const h = f * IC * (letterH / 2)
+                  const h = f * letterH
                   yOffset -= h
                   const y = yOffset
                   return (
@@ -132,7 +128,7 @@ export default function SequenceLogo({ sequences, title, maxWidth = 400, height 
             transform="rotate(-90)"
             fontFamily="IBM Plex Sans"
           >
-            bits
+            freq
           </text>
         </svg>
         <p className="text-xs text-gray-400 mt-1">n={sequences.length} sequences</p>

@@ -34,8 +34,15 @@ const columns: ColumnDef<Top50Entry>[] = [
   },
 ]
 
-const PIE_COLORS = ['#1B4F72', '#1ABC9C', '#E67E22', '#8E44AD']
-const TYPE_LABELS = ['miRNA', 'piRNA', 'tsRNA', 'rsRNA']
+const PIE_COLORS = ['#7D3C98', '#C39BD3', '#2E86C1', '#85C1E9', '#D4AC0D', '#F9E79F']
+const TISSUE_TIMEPOINTS = [
+  { tissue: 'Hypothalamus', timepoint: '16w' },
+  { tissue: 'Hypothalamus', timepoint: '35w' },
+  { tissue: 'Pituitary',    timepoint: '16w' },
+  { tissue: 'Pituitary',    timepoint: '35w' },
+  { tissue: 'Ovary',        timepoint: '16w' },
+  { tissue: 'Ovary',        timepoint: '35w' },
+]
 
 export default function Top50() {
   const { subclass } = useParams<{ subclass: string }>()
@@ -56,14 +63,18 @@ export default function Top50() {
     }).slice(0, 50)
   }, [subclass, filters])
 
-  // Pie data: total reads per type
+  // Pie data: reads per tissue×timepoint for selected sncRNA type (ignores tissue/timepoint filters)
   const pieData = useMemo(() => {
-    const totals: Record<string, number> = {}
-    for (const row of filtered) {
-      totals[row.type] = (totals[row.type] || 0) + row.readCount
-    }
-    return TYPE_LABELS.filter(t => totals[t]).map(t => ({ name: t, value: totals[t] }))
-  }, [filtered])
+    const typeFiltered = allData.filter(row =>
+      !subclass || subclass === 'All' || row.type === subclass
+    )
+    return TISSUE_TIMEPOINTS.map(({ tissue, timepoint }) => {
+      const total = typeFiltered
+        .filter(r => r.tissue === tissue && r.timepoint === timepoint)
+        .reduce((sum, r) => sum + r.readCount, 0)
+      return { name: `${tissue} ${timepoint}`, value: total }
+    }).filter(d => d.value > 0)
+  }, [subclass])
 
   // Seed sequences for logo
   const seeds = useMemo(() => filtered.map(r => r.seedSequence), [filtered])
@@ -95,7 +106,7 @@ export default function Top50() {
             <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-5">
               <PieChart
                 data={pieData}
-                title="Read Distribution by sncRNA Type"
+                title={subclass && subclass !== 'All' ? `${subclass} Reads by Tissue & Timepoint` : 'Reads by Tissue & Timepoint'}
                 colors={PIE_COLORS}
               />
             </div>

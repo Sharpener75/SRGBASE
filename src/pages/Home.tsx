@@ -1,9 +1,21 @@
 import { Link } from 'react-router-dom'
 import HenDiagram from '../components/HenDiagram/HenDiagram'
+import PieChart from '../components/PieChart'
 import overviewData from '../data/overview.json'
 import type { OverviewData } from '../types'
 
 const overview = overviewData as OverviewData
+
+const PIE_COLORS = ['#1B4F72', '#1ABC9C', '#E67E22', '#8E44AD']
+const TYPE_KEYS = ['miRNA', 'piRNA', 'tsRNA', 'rsRNA'] as const
+
+// Aggregate read counts across all tissue×timepoint combinations
+const typeTotals = TYPE_KEYS.map(type => {
+  const total = Object.values(overview.hpoCallouts).reduce((sum, tissuData) => {
+    return sum + Object.values(tissuData).reduce((s, tp) => s + (tp as Record<string, number>)[type], 0)
+  }, 0)
+  return { name: type, value: total }
+})
 
 const statCards = [
   {
@@ -108,8 +120,17 @@ export default function Home() {
         <p className="text-sm text-gray-500 mb-6">
           Detected sncRNA counts per tissue and time point. Dashed lines indicate callout data cards for each tissue region.
         </p>
-        <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
-          <HenDiagram data={overview} />
+        <div className="grid md:grid-cols-[2fr_1fr] gap-4 items-start">
+          <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+            <HenDiagram data={overview} />
+          </div>
+          <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+            <PieChart
+              data={typeTotals}
+              title="sncRNA Type Composition (all tissues & timepoints)"
+              colors={PIE_COLORS}
+            />
+          </div>
         </div>
 
         {/* Tissue legend */}

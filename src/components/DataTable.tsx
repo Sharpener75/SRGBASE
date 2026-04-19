@@ -31,13 +31,6 @@ export default function DataTable<T extends { id: string }>({
   const [currentPage, setCurrentPage] = useState(1)
   const rowRefs = useRef<Record<string, HTMLTableRowElement | null>>({})
 
-  // Scroll to hovered row
-  useEffect(() => {
-    if (hoveredId && rowRefs.current[hoveredId]) {
-      rowRefs.current[hoveredId]!.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
-    }
-  }, [hoveredId])
-
   // Reset page on filter change
   useEffect(() => {
     setCurrentPage(1)
