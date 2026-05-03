@@ -23,7 +23,7 @@ export default function App() {
             <Route path="/diff-expression/:subclass" element={<DiffExpression />} />
             <Route path="/diff-expression" element={<Navigate to="/diff-expression/miRNA" replace />} />
             <Route path="/targets/:subclass" element={<Targets />} />
-            <Route path="/targets" element={<Navigate to="/targets/miRNA_RNA_body" replace />} />
+            <Route path="/targets" element={<Navigate to="/targets/miRNA_body" replace />} />
             <Route path="/raw-data" element={<RawData />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Navigate to="/" replace />} />

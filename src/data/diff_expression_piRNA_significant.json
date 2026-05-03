@@ -1,0 +1,122 @@
+[
+  {
+    "id": "piR-gga-195552",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -4.204975,
+    "pvalue": 0.04875689,
+    "padj": 3e-07,
+    "regulation": "Down"
+  },
+  {
+    "id": "piR-gga-82224",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -3.649347,
+    "pvalue": 0.04962205,
+    "padj": 0.00539657,
+    "regulation": "Down"
+  },
+  {
+    "id": "piR-gga-107898",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.985667,
+    "pvalue": 0.02862188,
+    "padj": 1.06e-06,
+    "regulation": "Down"
+  },
+  {
+    "id": "piR-gga-204136",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.481862,
+    "pvalue": 0.01630002,
+    "padj": 0.00112209,
+    "regulation": "Down"
+  },
+  {
+    "id": "piR-gga-124018",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.993041,
+    "pvalue": 0.00746568,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "piR-gga-102728",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -3.639107,
+    "pvalue": 0.05129898,
+    "padj": 0.01764591,
+    "regulation": "Down"
+  },
+  {
+    "id": "piR-gga-168159",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.41954,
+    "pvalue": 0.09941474,
+    "padj": 5.15e-05,
+    "regulation": "Down"
+  },
+  {
+    "id": "piR-gga-323300",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.429883,
+    "pvalue": 0.12160076,
+    "padj": 0.04329347,
+    "regulation": "Down"
+  },
+  {
+    "id": "piR-gga-346050",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.390826,
+    "pvalue": 0.12234719,
+    "padj": 0.04725738,
+    "regulation": "Down"
+  },
+  {
+    "id": "piR-gga-20395",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.909625,
+    "pvalue": 0.12357166,
+    "padj": 4.77e-05,
+    "regulation": "Down"
+  },
+  {
+    "id": "piR-gga-361505",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.95081,
+    "pvalue": 0.17423263,
+    "padj": 0.03675449,
+    "regulation": "Down"
+  },
+  {
+    "id": "piR-gga-60498",
+    "type": "piRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.937619,
+    "pvalue": 0.18049794,
+    "padj": 0.04989547,
+    "regulation": "Down"
+  }
+]

@@ -1,37 +1,70 @@
 import { useParams, useSearchParams } from 'react-router-dom'
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import FilterSidebar from '../components/FilterSidebar'
 import VolcanoPlot from '../components/VolcanoPlot'
 import DataTable from '../components/DataTable'
 import { parseFiltersFromURL, filtersToSearchParams } from '../utils/filterUtils'
 import { formatLog2FC, formatPadj } from '../utils/formatters'
-import type { DERecord, ColumnDef, FilterState } from '../types'
-import rawData from '../data/diff_expression.json'
+import type { DERecord, DEVolcanoRecord, SncRNAType, ColumnDef, FilterState } from '../types'
 
-const allData = rawData as DERecord[]
+const VOLCANO_MODULES: Record<string, () => Promise<{ default: unknown[] }>> = {
+  miRNA: () => import('../data/diff_expression_miRNA_volcano.json'),
+  piRNA: () => import('../data/diff_expression_piRNA_volcano.json'),
+  tsRNA: () => import('../data/diff_expression_tsRNA_volcano.json'),
+  rsRNA: () => import('../data/diff_expression_rsRNA_volcano.json'),
+}
+const SIG_MODULES: Record<string, () => Promise<{ default: unknown[] }>> = {
+  miRNA: () => import('../data/diff_expression_miRNA_significant.json'),
+  piRNA: () => import('../data/diff_expression_piRNA_significant.json'),
+  tsRNA: () => import('../data/diff_expression_tsRNA_significant.json'),
+  rsRNA: () => import('../data/diff_expression_rsRNA_significant.json'),
+}
 
 export default function DiffExpression() {
   const { subclass } = useParams<{ subclass: string }>()
   const [searchParams, setSearchParams] = useSearchParams()
   const filters = parseFiltersFromURL(searchParams)
 
-  // Bidirectional hover state — owned here, passed to both plot and table
+  const currentSubclass = (subclass && subclass !== 'All' ? subclass : 'miRNA') as SncRNAType
+
   const [hoveredId, setHoveredId] = useState<string | null>(null)
   const [log2fcThreshold, setLog2fcThreshold] = useState(1.0)
   const [padjThreshold, setPadjThreshold] = useState(0.05)
+  const [volcanoData, setVolcanoData] = useState<DEVolcanoRecord[]>([])
+  const [sigData, setSigData] = useState<DERecord[]>([])
+
+  useEffect(() => {
+    setVolcanoData([])
+    setSigData([])
+    Promise.all([
+      VOLCANO_MODULES[currentSubclass]?.(),
+      SIG_MODULES[currentSubclass]?.(),
+    ]).then(([vol, sig]) => {
+      setVolcanoData((vol?.default ?? []) as DEVolcanoRecord[])
+      setSigData((sig?.default ?? []) as DERecord[])
+    })
+  }, [currentSubclass])
 
   const handleFilterChange = (f: Partial<FilterState>) => {
     const updated = { ...filters, ...f }
     setSearchParams(filtersToSearchParams(updated), { replace: true })
   }
 
-  const filtered = useMemo(() => {
-    return allData.filter(row => {
-      if (subclass && subclass !== 'All' && row.type !== subclass) return false
+  // Volcano: filter by tissue only (all types already pre-filtered by file)
+  const filteredVolcano = useMemo(() => {
+    return volcanoData.filter(row => {
       if (filters.tissue !== 'All' && row.tissue !== filters.tissue) return false
       return true
     })
-  }, [subclass, filters])
+  }, [volcanoData, filters.tissue])
+
+  // Table: significant rows filtered by tissue; threshold sliders only affect volcano display
+  const filteredSig = useMemo(() => {
+    return sigData.filter(row => {
+      if (filters.tissue !== 'All' && row.tissue !== filters.tissue) return false
+      return true
+    })
+  }, [sigData, filters.tissue])
 
   const columns: ColumnDef<DERecord>[] = [
     { key: 'id', header: 'sncRNA ID', sortable: true },
@@ -75,10 +108,9 @@ export default function DiffExpression() {
   ]
 
   const summary = useMemo(() => ({
-    up: filtered.filter(d => d.regulation === 'Up').length,
-    down: filtered.filter(d => d.regulation === 'Down').length,
-    ns: filtered.filter(d => d.regulation === 'NS').length,
-  }), [filtered])
+    up:   filteredSig.filter(d => d.regulation === 'Up').length,
+    down: filteredSig.filter(d => d.regulation === 'Down').length,
+  }), [filteredSig])
 
   return (
     <div className="max-w-screen-xl mx-auto px-4 py-8">
@@ -95,7 +127,6 @@ export default function DiffExpression() {
       </div>
 
       <div className="flex gap-6 items-start">
-        {/* Sidebar with threshold controls */}
         <FilterSidebar
           filters={filters}
           onFilterChange={handleFilterChange}
@@ -126,14 +157,10 @@ export default function DiffExpression() {
                   className="w-full accent-primary"
                 />
               </div>
-              <div className="grid grid-cols-3 gap-1 text-center text-xs mt-2">
+              <div className="grid grid-cols-2 gap-1 text-center text-xs mt-2">
                 <div className="bg-up-color/10 rounded p-1.5">
                   <div className="font-bold text-up-color">{summary.up}</div>
                   <div className="text-gray-500">Up</div>
-                </div>
-                <div className="bg-gray-100 rounded p-1.5">
-                  <div className="font-bold text-gray-500">{summary.ns}</div>
-                  <div className="text-gray-500">NS</div>
                 </div>
                 <div className="bg-down-color/10 rounded p-1.5">
                   <div className="font-bold text-down-color">{summary.down}</div>
@@ -148,22 +175,33 @@ export default function DiffExpression() {
           {/* Volcano Plot */}
           <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-5">
             <h3 className="font-semibold text-gray-700 mb-3">Volcano Plot</h3>
-            <div className="overflow-x-auto min-w-[400px]">
-              <VolcanoPlot
-                data={filtered}
-                log2fcThreshold={log2fcThreshold}
-                padjThreshold={padjThreshold}
-                hoveredId={hoveredId}
-                onHoverChange={setHoveredId}
-              />
-            </div>
+            {filteredVolcano.length === 0 ? (
+              <div className="flex items-center justify-center h-40 text-sm text-gray-400">
+                Loading…
+              </div>
+            ) : (
+              <div className="overflow-x-auto min-w-[400px]">
+                <VolcanoPlot
+                  data={filteredVolcano}
+                  log2fcThreshold={log2fcThreshold}
+                  padjThreshold={padjThreshold}
+                  hoveredId={hoveredId}
+                  onHoverChange={setHoveredId}
+                />
+              </div>
+            )}
           </div>
 
-          {/* Data Table */}
+          {/* Significant results table */}
           <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-5">
-            <h3 className="font-semibold text-gray-700 mb-4">DE Results Table</h3>
+            <h3 className="font-semibold text-gray-700 mb-4">
+              Significant DE Results
+              <span className="ml-2 text-xs font-normal text-gray-400">
+                (|log₂FC| ≥ 0.585 & adj. p-value &lt; 0.05)
+              </span>
+            </h3>
             <DataTable
-              data={filtered}
+              data={filteredSig}
               columns={columns}
               hoveredId={hoveredId}
               onHoverChange={setHoveredId}

@@ -1,0 +1,146 @@
+[
+  {
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "type": "miRNA",
+    "count": 275
+  },
+  {
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "type": "miRNA",
+    "count": 282
+  },
+  {
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "type": "miRNA",
+    "count": 282
+  },
+  {
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "type": "miRNA",
+    "count": 292
+  },
+  {
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "type": "miRNA",
+    "count": 289
+  },
+  {
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "type": "miRNA",
+    "count": 270
+  },
+  {
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "type": "piRNA",
+    "count": 80459
+  },
+  {
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "type": "piRNA",
+    "count": 81765
+  },
+  {
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "type": "piRNA",
+    "count": 82666
+  },
+  {
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "type": "piRNA",
+    "count": 86115
+  },
+  {
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "type": "piRNA",
+    "count": 122262
+  },
+  {
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "type": "piRNA",
+    "count": 104087
+  },
+  {
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "type": "tsRNA",
+    "count": 30402
+  },
+  {
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "type": "tsRNA",
+    "count": 32705
+  },
+  {
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "type": "tsRNA",
+    "count": 26362
+  },
+  {
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "type": "tsRNA",
+    "count": 28276
+  },
+  {
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "type": "tsRNA",
+    "count": 25364
+  },
+  {
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "type": "tsRNA",
+    "count": 26808
+  },
+  {
+    "tissue": "Hypothalamus",
+    "timepoint": "16w",
+    "type": "rsRNA",
+    "count": 6367
+  },
+  {
+    "tissue": "Pituitary",
+    "timepoint": "16w",
+    "type": "rsRNA",
+    "count": 6549
+  },
+  {
+    "tissue": "Ovary",
+    "timepoint": "16w",
+    "type": "rsRNA",
+    "count": 6918
+  },
+  {
+    "tissue": "Hypothalamus",
+    "timepoint": "35w",
+    "type": "rsRNA",
+    "count": 7105
+  },
+  {
+    "tissue": "Pituitary",
+    "timepoint": "35w",
+    "type": "rsRNA",
+    "count": 7126
+  },
+  {
+    "tissue": "Ovary",
+    "timepoint": "35w",
+    "type": "rsRNA",
+    "count": 6280
+  }
+]

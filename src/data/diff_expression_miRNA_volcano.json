@@ -1,0 +1,8482 @@
+[
+  {
+    "id": "gga-miR-30e-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.728595,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-15c-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.102658,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6626-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.563794,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1673",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-145-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.605299,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3532-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7475-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.187311,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-203a",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-125b-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.285618,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-130b-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1594",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1648-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-451",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -7.951828,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "gga-miR-1684b-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.626599,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6714-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-223",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.314077,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-10b-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1735",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6641-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1306-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-202-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7475-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.318688,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7i",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.326784,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1552-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.794252,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12235-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1684a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.747661,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-363-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -3.262743,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-193b-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1597-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-107-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30c-1-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.075077,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-193a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.097923,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-146a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.272358,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.015432,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-122-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 1.305653,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1647",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-144-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-138-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.394701,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1634",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-203a",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.46217,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-193a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.631912,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1684a-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 1.465675,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-425-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.73292,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-455-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.980479,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-301b-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.919735,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6569-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-130a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1467-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12212-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-34c-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-219a",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.673782,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-101-2-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-34c-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.044183,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6672-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6700-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1671",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-103-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.148573,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12229-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1644",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.384997,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3536",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.085343,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-135a-2-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.102609,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-202-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-190b-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.105195,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2129",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -2.978234,
+    "padj": 0.03803691,
+    "regulation": "Down"
+  },
+  {
+    "id": "gga-miR-184-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 1.734343,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1723",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-726-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6629-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-142-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.454178,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6603-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.29345,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1b-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-204",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -2.773562,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-455-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.331174,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6631-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12277-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.192856,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1559-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.737669,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-153-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1306-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.339029,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-181a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.061259,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3538",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.258034,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-460a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 1.671271,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-193a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-124c-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-106-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.805573,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-190b-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.825209,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-223",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.938481,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1795",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-140-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.186649,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12246-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.762412,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6702-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 1.100941,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12266-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-130c-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.196218,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-124a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.310343,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-20b-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 2.199282,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3532-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-128-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.468182,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-16c-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 2.067873,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-128-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.214231,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-425-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.806534,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-301a-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.883537,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-196-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-222b-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1705",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1451-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 1.01669,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6608-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1720-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.399051,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6711-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.86728,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-106-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6585-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.07915,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-130a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.584629,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6606-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.315443,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6707-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-10b-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -2.733479,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-16-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.849802,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-10585-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12229-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.019092,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12212-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.963533,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1329-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.56537,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-145-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.262911,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-489-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-101-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.17288,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1451-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6607-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-726-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1599",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.068109,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-129-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.469881,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1329-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30e-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -1.090715,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-363-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.832792,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-132a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.34082,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-210a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.358758,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12211-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-15a",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.279412,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6551-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -1.001621,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6707-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1684b-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -2.669358,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.936931,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6516-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1662",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.046015,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6613-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.420538,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-129-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 1.904363,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-101-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.332839,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-429-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.203727,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1597-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12271-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-133c-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-15c-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.232669,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-449d-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.910144,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6711-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.381538,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-103-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.348913,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-146c-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-451",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.724155,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-145-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.747661,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1648-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6564-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1591-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1667-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.279412,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1620",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.524425,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-101-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.310792,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1558",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3530-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-146c-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.040133,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1a-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.110121,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-26a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-133a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6573-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-338-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.851896,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-210a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.947968,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1716",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-144-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -6.015148,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1565",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 1.015453,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-129-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.473275,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-454-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.983502,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-181b-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.156393,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3529",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-9-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.166671,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-29c-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.983966,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12242-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7f-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.609742,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-455-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.316733,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-148b-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.682859,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7475-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.354336,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1609",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 1.036467,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-100-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.451016,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6557-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2184a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.080103,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-205a",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-143-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.077088,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-130c-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.392671,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12216-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-148a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.159076,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6603-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.196594,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1691",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-15a",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.203729,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-199b",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.950594,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6626-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.057923,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-26a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.10168,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12236-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1677-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-200b-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.802035,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-19a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.936931,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6672-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-17-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.144346,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-21-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.148412,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3523",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.220518,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-140-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.705969,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7468-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1454",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.078055,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1609",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.629146,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-182-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.035676,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30e-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.510207,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-204",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.684933,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1736-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1719",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6671-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1644",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.09332,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1729-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1627-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-20a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-130c-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.015688,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-138-2-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6584-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-19b-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.412032,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-135a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6606-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.063726,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2954",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.252628,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-199-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.363945,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1729-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1552-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1416-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.641475,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-129-1-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12211-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-135a-1-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.130591,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-27b-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.57513,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7j-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.651585,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-100-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-460a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-21-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1814",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6583-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1794",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.963533,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-16c-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.107155,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-122-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12211-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-34a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.26626,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6675-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-129-1-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.790342,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-458b-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1416-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.006443,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7d",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.221061,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2131-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.29617,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6544-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-221-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.690215,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1697",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7b",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.855705,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-146a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.178146,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-107-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.180944,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1720-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.714349,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1720-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.565065,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1612",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.300985,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-211",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.684933,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12211-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7j-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30e-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.782478,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6651-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 2.019092,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6678-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.250319,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-211",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -2.773562,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1805-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-200a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.064184,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2131-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.197336,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-222a",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.157396,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30c-2-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.185553,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12215-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-92-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.615859,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12243-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-454-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 1.072756,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-216a",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.380368,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-126-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.71595,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6578-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-129-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-92-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.830269,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6708-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-184b-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.65412,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12211-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1434",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.65412,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6691-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6711-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.512376,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2188-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-223",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.053728,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7f-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.032796,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-128-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.650479,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-551-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.236463,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1599",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.009599,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-10a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.380709,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-205b",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.222122,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-217-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.033471,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1565",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.598349,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-301b-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.333978,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1778",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.102658,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6601-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-490-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.133387,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3528",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.091282,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1768",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.102658,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-33-2-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.192856,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-138-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.224532,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12268-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.148412,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12248-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-20a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.105329,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-140-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.254892,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6551-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-22-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.101888,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-31-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -2.48507,
+    "padj": 0.22339699,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30b-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.266055,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1673",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-181b-1-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6700-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-145-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.767686,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-18a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.845478,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30b-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.069346,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-146b-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.721831,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1732",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3528",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1740-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-214",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.147133,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-181a-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.633584,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-338-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.151388,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-147",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.491642,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6606-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.312379,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-135a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.443101,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6607-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-365b-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-27b-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.547274,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-425-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.591356,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-142-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.840184,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12284-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6549-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1664-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-125b-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.329081,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-218-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.594256,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3538",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.328605,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1744-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-199-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.111257,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1683",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1599",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.806385,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-455-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.044183,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-148b-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.279412,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6637-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1451-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.068845,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-199-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.671974,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1795",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-33-2-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1724",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-181a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.175125,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-26a-2-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.019069,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1729-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-363-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 1.22692,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1749-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.125692,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1563",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.685194,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1635",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6613-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -2.509415,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12292-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.988884,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6651-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.763509,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1662",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 1.703351,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3536",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.921272,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-32-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -2.35397,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12269-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7j-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.062406,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1696",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-726-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-26a-2-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.105167,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-460b-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-375",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.736011,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3533",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.019731,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-19a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.452863,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-190b-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-107-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.526551,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-130c-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-34c-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.23896,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-187-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.252103,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-20a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7c-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1564-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.53092,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-190a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 1.510665,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6665-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.796753,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2184a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 2.360853,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1694",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6665-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.052032,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1730-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-29c-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.358453,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7477-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-16-1-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1671",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12230-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1644",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.769175,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-460b-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-18b-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2131-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -1.048926,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12234-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.102609,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1643-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3528",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.755203,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-135a-2-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.192856,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30c-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.010438,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6627-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-454-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.135331,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1630",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.832639,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3594-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.148412,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6516-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-458a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.39787,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.147922,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-147",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.316733,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1711",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3526",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.695873,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-183",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.148563,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-107-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.783599,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1648-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.229719,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-22-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.516879,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7k-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.082232,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6641-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12292-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -1.001621,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-458a-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.747376,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1658-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-100-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.004263,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1747-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-9-4-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.331558,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-338-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.479208,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6645-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7474-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1329-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.237098,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.035057,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-218-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -1.715635,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-92-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.726556,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-31-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.650595,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1456-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1551-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6516-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.28521,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-126-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.27862,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6609-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-206",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1569",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2188-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -2.259008,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6583-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1620",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.967247,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-145-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.292778,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-101-2-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1562-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-205a",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6702-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.051237,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-17-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.581394,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-429-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.568139,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1797",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.226568,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7k-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.936931,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12245-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-184-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.3268,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-132a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-191-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.152961,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6661-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1574-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12234-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-34b-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12277-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-33-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6660-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1629",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.322421,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1653",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-425-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.90668,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30c-1-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.19405,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-16-1-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-22-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1685-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-455-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-187-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.165939,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3535",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 1.35934,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.334295,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-181b-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.17124,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12247-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.006393,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1803",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7b",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.109074,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1594",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.290847,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-365-2-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-29b-2-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-126-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.97863,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1730-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-217-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1731-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1788-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2184a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.682358,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7474-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1778",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-199-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.009528,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-29b-1-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.068845,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30c-2-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.339817,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2129",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.192856,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-365-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.588085,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12274-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-135a-3-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6626-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-146b-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.210541,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30b-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.777732,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-29c-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.319712,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7j-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.18624,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-221-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.333984,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-211",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.447325,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30c-2-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.044183,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-148a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6632-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1711",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-143-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 1.447122,
+    "padj": 0.0,
+    "regulation": "Up"
+  },
+  {
+    "id": "gga-miR-490-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.890513,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-193a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7455-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6618-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-130b-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.524121,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-365-2-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.781149,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1451-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 2.43092,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1752",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.459221,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7k-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.184758,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3530-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6567-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30d",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.428442,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-219b",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.274979,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-130a-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.26015,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2131-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.384412,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6632-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-143-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.232794,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.651585,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6582-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1737",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6654-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1564-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.577305,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1629",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.544409,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12214-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-10a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.031055,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-33-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-125b-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.119087,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-499-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.052032,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1612",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 1.147935,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7b",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.157446,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-214",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.680492,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-24-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.297481,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1b-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-34a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.2054,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30e-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.74785,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-199-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.85777,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-124a-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.301729,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-183",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.799091,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-99a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.227488,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1752",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.18624,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12224-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-9-4-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.113901,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3533",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.588085,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6585-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.235589,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-130b-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.475797,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-142-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.224274,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6588-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7c-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.003575,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-122-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.191202,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1705",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-18a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-221-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.360941,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-140-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.413976,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6678-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.320003,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-219b",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.615809,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-365-1-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-155",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.279412,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-142-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -2.446597,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7437-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-132a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.310081,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-33-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.192856,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-153-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.996877,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-458a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -2.068922,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-32-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.467123,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1648-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7b",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.016638,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2131-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-29b-2-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1672",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1388a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7c-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.090769,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-221-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.436232,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-182-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.328926,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-133a-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-138-1-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.020336,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3524a",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3529",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3526",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.194673,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-338-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.019242,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-153-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-99a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7i",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.544815,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-137-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -2.568471,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-205b",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-194",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.628268,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-27b-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.534375,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-24-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.465026,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12211-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-9-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.644356,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1687-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6578-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 1.721202,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6658-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12241-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1564-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1729-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.111612,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1558",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1630",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 2.205934,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3526",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.232834,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-29a-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.60056,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-153-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.353615,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12218-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-551-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-210a-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -3.293274,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1620",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.008928,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3536",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.578296,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6637-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7475-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-456-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 1.225738,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-106-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.029818,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-10b-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.612467,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1777",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-218-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.055689,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6656-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-16-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.387841,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2188-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.375627,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1560-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7b",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.662531,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3533",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.293274,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12241-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30a-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.015156,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1735",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3535",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -2.317004,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-212-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.102658,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6552-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1306-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-449a",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-130c-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.148412,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12249-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-187-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.927803,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1778",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7449-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-15b-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.154029,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1682",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1559-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.066241,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6613-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.439218,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6593-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.375627,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1604",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6581-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-10a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.552863,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-146c-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.091064,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30c-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.192646,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-203a",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.193466,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-21-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.03306,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1715-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-126-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.136201,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-31-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12219-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3530-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.897391,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1388a-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 1.510665,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-18a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1609",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.34588,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-196-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.791855,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6564-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-20b-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.64303,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-375",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.704697,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12256-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-221-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.083417,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7468-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.357149,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1733",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.980479,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30d",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.418358,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-214",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.351529,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2184b-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1796",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.845478,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-455-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.849665,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3531-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-135b",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-23b-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.120206,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7461-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1716",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.421431,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-125b-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.325904,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12215-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-142-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.587592,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-449c-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2954",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.612408,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1397-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-499-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1329-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 3.44029,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-23b-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.862003,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6641-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 1.189158,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-301b-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 2.385924,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-9-4-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.179235,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1723",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.925565,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-19b-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.15487,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1651-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6567-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12229-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-222b-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-34a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.002165,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3064-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.641475,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-217-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-222a",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.828548,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-499-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-458b-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.226568,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6678-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.678055,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-191-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.69248,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7465-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.882432,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7476-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-184-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -1.254935,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1306-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.024949,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-204",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.447325,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6516-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.331558,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-103-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.110339,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-15a",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.58184,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6651-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.363654,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1397-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7a-2-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6665-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-200a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.060721,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7472-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-20a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.744877,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12223-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.421431,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-148a-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.186427,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-146b-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.086916,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6550-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6702-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-338-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1723",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-15c-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-383-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.440869,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-10c-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2184b-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1b-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 2.839551,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6602-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-214b-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1737",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-99a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.283777,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-187-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-15c-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1686",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6598-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-460b-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.426054,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-33-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-16c-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.951797,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6634-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.773562,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1612",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.03211,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6681-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1677-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7468-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1329-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-32-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.299112,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6625-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1388b-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.088934,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-29a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.066788,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1451-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1735",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-193b-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-29c-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3538",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.230393,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1637",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6609-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1794",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1763",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-18b-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6634-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.317202,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-10b-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.848328,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7b",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.020407,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-181a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.122824,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.966551,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1720-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -1.380315,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-26a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.228959,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12263-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-191-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.271854,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6542-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30d",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.267597,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1581",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-130b-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.362537,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1569",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1553-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-202-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -2.546336,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6581-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.121564,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-216a",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -1.097836,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-132c-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.608317,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7i",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.134122,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6625-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-140-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.349677,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-375",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.127481,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-99a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.025004,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-301a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.663973,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1763",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3064-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -1.314504,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30c-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.243099,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-34b-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7g-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.977737,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1706",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7g-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.018917,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-92-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3535",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.334198,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1692",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 1.209335,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-199-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.730815,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1729-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.375627,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12292-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.535822,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7g-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.545057,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-132a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 2.36103,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-181b-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.15229,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6564-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-222a",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -1.207156,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7461-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3523",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.200573,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1654",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12218-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1565",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.00484,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-429-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-490-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -1.138582,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-101-1-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12280-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-190a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -3.594139,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-365-1-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-27b-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6603-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 1.546556,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12212-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1662",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.796753,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-205b",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-155",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6642-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7442-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-135a-3-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.391366,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-132a-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 1.925273,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1794",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-126-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.461807,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-182-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -1.295976,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12208-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3594-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-456-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.442845,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1697",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.044183,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-191-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.252103,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-200b-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.183106,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1603",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-17-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.330256,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-210a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.03827,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6588-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-19b-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.150675,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-146a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.402777,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1563",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.473573,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1763",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-19b-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-425-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.953926,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1729-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.539664,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7j-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -1.079199,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12243-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-125b-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.843162,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1703-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-148b-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.437382,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-135a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.40171,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7441-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7k-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7480-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1434",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1603",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1682",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1466",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-128-1-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 1.391497,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-206",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.930842,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1354",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1552-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.742155,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-100-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.085474,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-146b-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.015612,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-130b-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.019947,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-140-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.094488,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1388a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.770888,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12268-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-133a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-210a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.900497,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3530-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-29a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.202823,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1388a-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.338237,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6585-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -1.967405,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-130a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.58184,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-21-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.110091,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-222b-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2129",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.014159,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12246-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1563",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.82527,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1597-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12262-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.455171,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.260149,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-132a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -1.417559,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-142-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -2.092505,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6631-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1635",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6567-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.052032,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-363-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-153-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-31-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.536036,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12237-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-34b-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.209574,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-27b-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.190331,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-383-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.081177,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7k-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.194589,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1770",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30c-1-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.016108,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12256-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-212-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.924363,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12248-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-200b-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.935834,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-148b-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.946917,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1416-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.421431,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1559-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.392703,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-181b-1-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-135b",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-133a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1329-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-489-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2130",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.006393,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6634-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.362537,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-26a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.079049,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1648-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.750336,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-23b-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.239099,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-132c-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1454",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.142208,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-21-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.200328,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-22-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.444536,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12243-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.410992,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-126-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.106761,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-449b-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-146c-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.124486,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-193b-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-187-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.226568,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-210a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7449-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-365-1-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-143-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.515244,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1783",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-21-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.819191,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-15c-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.441581,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7457-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-338-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7465-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.320708,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12234-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-143-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 3.186407,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-10a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-181a-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.225675,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6578-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-221-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.343799,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1456-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-24-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.192856,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-190a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.082036,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1553-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.316733,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-206",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-222b-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-222b-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.102658,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6581-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.014159,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1684b-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.978677,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-107-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1721",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-148a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.403991,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1a-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 3.268219,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-200a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.339639,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6645-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1673",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.088934,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-29b-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.127998,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-460a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.781149,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1715-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-9-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.295804,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1790",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6547-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.044183,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12241-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12236-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-34b-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 1.729489,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1684a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3540",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.226568,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1388a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-133c-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-219b",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.16585,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7c-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.589011,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7d",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.608503,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.062406,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-34c-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 3.595142,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-20b-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -1.716266,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-200b-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.026206,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1629",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.067824,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-22-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-200a-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.12635,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7441-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-27b-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-22-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.444268,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-183",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -2.131157,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-30e-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.046555,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6659-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-7478-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3540",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-196-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.219123,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-451",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.637058,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-365-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.746212,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1607",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1767",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-143-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 1.057424,
+    "padj": 0.06834653,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-20a-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.410204,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1692",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.736632,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-212-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 2.409092,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6609-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-24-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.440831,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1720-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.063069,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-29b-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.232482,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1555-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1796",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-29b-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.72432,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-191-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.08649,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1454",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.165851,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12295-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7f-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.117993,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-125b-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.139784,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-187-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-191-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.021405,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-133b",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-215-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1752",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -2.725211,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-212-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -1.559568,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-15b-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -1.024772,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6552-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2985-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.148412,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-129-1-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.38416,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1814",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6645-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-365-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1595-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-9-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.998246,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-10c-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.999215,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12247-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-425-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.544047,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6516-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.084141,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-3064-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.416133,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6547-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.102609,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1551-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1467-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-29b-1-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-15b-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-19a-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.513131,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1677-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-383-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.370696,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1306-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.197838,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-181a-3p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.432417,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-33-2-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1797",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-6575-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12251-5p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": 0.641475,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-34c-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.441244,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12237-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1648-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12243-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.881132,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-26a-2-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": -0.159205,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-137-3p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-12246-5p",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.22578,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-let-7d",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 1.59352,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-2954",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.826423,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1630",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-456-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "log2FC": -0.434356,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-1576",
+    "type": "miRNA",
+    "tissue": "Pituitary",
+    "log2FC": 0.0,
+    "padj": 1.0,
+    "regulation": "NS"
+  },
+  {
+    "id": "gga-miR-16-5p",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "log2FC": -0.119229,
+    "padj": 1.0,
+    "regulation": "NS"
+  }
+]

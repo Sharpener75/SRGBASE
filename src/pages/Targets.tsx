@@ -1,7 +1,6 @@
 import { useParams, useSearchParams } from 'react-router-dom'
 import { useState, useMemo } from 'react'
 import DataTable from '../components/DataTable'
-import { formatScore } from '../utils/formatters'
 import type { TargetEntry, ColumnDef } from '../types'
 import rawData from '../data/targets.json'
 
@@ -16,59 +15,68 @@ const columns: ColumnDef<TargetEntry>[] = [
       </span>
     ),
   },
-  { key: 'interactionType', header: 'Interaction Type', sortable: true,
+  { key: 'bindingSiteLabel', header: 'Binding Site', sortable: true,
     render: (v) => (
       <span className={`px-2 py-0.5 rounded text-xs font-medium ${
-        v === 'promoter' ? 'bg-purple-100 text-purple-700' : 'bg-teal-100 text-teal-700'
+        String(v).toLowerCase().includes('promoter')
+          ? 'bg-purple-100 text-purple-700'
+          : 'bg-teal-100 text-teal-700'
       }`}>
-        {String(v).replace('_', ' ')}
+        {String(v)}
       </span>
     ),
   },
   { key: 'targetGene', header: 'Target Gene', sortable: true,
     render: (v) => <span className="font-semibold text-text-main font-mono">{String(v)}</span> },
   { key: 'geneDescription', header: 'Gene Description', sortable: false },
-  { key: 'score', header: 'Score', sortable: true,
+  { key: 'mfe', header: 'MFE (kcal/mol)', sortable: true,
     render: (v) => (
-      <div className="flex items-center gap-2">
-        <div className="w-16 bg-gray-100 rounded-full h-1.5">
-          <div
-            className="h-1.5 rounded-full bg-accent"
-            style={{ width: `${(v as number) * 100}%` }}
-          />
-        </div>
-        <span className="text-xs text-gray-600">{formatScore(v as number)}</span>
-      </div>
+      <span className="font-mono text-sm text-gray-700">
+        {(v as number).toFixed(1)}
+      </span>
+    ),
+  },
+  { key: 'targetExpression', header: 'Target Expression', sortable: true,
+    render: (v) => (
+      <span className={`px-2 py-0.5 rounded text-xs font-semibold text-white ${
+        v === 'Upregulated' ? 'bg-up-color' : 'bg-down-color'
+      }`}>
+        {String(v)}
+      </span>
     ),
   },
   { key: 'tissue', header: 'Tissue', sortable: true },
 ]
 
-// Parse subclass: e.g. "miRNA_promoter" or "miRNA_RNA_body"
+// Parse subclass: "miRNA_promoter" → {type:'miRNA', binding:'promoter'}
+//                 "miRNA_body"     → {type:'miRNA', binding:'body'}
 function parseSubclass(subclass?: string) {
-  if (!subclass) return { type: null, interaction: null }
-  const parts = subclass.split('_')
-  const type = parts[0]
-  const interaction = parts.slice(1).join('_') || null
-  return { type, interaction }
+  if (!subclass) return { type: null, binding: null }
+  const idx = subclass.lastIndexOf('_')
+  if (idx < 0) return { type: subclass, binding: null }
+  const type = subclass.slice(0, idx)
+  const binding = subclass.slice(idx + 1)
+  return { type, binding }
 }
 
 export default function Targets() {
   const { subclass } = useParams<{ subclass: string }>()
   const [searchName, setSearchName] = useState('')
-  const { type, interaction } = parseSubclass(subclass)
+  const { type, binding } = parseSubclass(subclass)
 
   const filtered = useMemo(() => {
     return allData.filter(row => {
       if (type && type !== 'All' && row.sncRNAType !== type) return false
-      if (interaction && row.interactionType !== interaction) return false
+      if (binding && row.bindingSite !== binding) return false
       if (searchName.trim()) {
         const term = searchName.trim().toLowerCase()
         return row.sncRNAId.toLowerCase().includes(term)
       }
       return true
     })
-  }, [type, interaction, searchName])
+  }, [type, binding, searchName])
+
+  const bindingLabel = binding === 'promoter' ? 'Promoter' : binding === 'body' ? 'RNA/Gene Body' : binding
 
   return (
     <div className="max-w-screen-xl mx-auto px-4 py-8">
@@ -76,10 +84,10 @@ export default function Targets() {
         <h1 className="font-heading text-2xl font-semibold text-primary">
           Target Gene Prediction
           {type && <span className="ml-2 text-lg text-accent">— {type}</span>}
-          {interaction && <span className="ml-1 text-base text-gray-500">({interaction.replace('_', ' ')})</span>}
+          {binding && <span className="ml-1 text-base text-gray-500">({bindingLabel})</span>}
         </h1>
         <p className="text-sm text-gray-500 mt-1">
-          Predicted target genes for sncRNAs based on promoter and RNA body interactions.
+          Predicted target genes for sncRNAs based on promoter and RNA/gene body interactions.
         </p>
       </div>
 

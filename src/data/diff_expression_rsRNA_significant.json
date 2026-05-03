@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "28S-rRNA,GAGCGCCGTTCCGAAGGGAC",
+    "type": "rsRNA",
+    "tissue": "Pituitary",
+    "comparison": "HP-16_vs_HP-35",
+    "log2FC": -0.93765,
+    "pvalue": 0.00384392,
+    "padj": 0.00166642,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,AGAGGGACAAGTGGCGTTCAGCCAC",
+    "type": "rsRNA",
+    "tissue": "Pituitary",
+    "comparison": "HP-16_vs_HP-35",
+    "log2FC": -0.840404,
+    "pvalue": 0.01068025,
+    "padj": 0.00373657,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,CCGGAGCGGCGGAGACGGGCGCCGC",
+    "type": "rsRNA",
+    "tissue": "Pituitary",
+    "comparison": "HP-16_vs_HP-35",
+    "log2FC": -0.766053,
+    "pvalue": 0.01062492,
+    "padj": 0.02133401,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,CCGGAGCGGCGGAGAC",
+    "type": "rsRNA",
+    "tissue": "Pituitary",
+    "comparison": "HP-16_vs_HP-35",
+    "log2FC": -0.674581,
+    "pvalue": 0.00179644,
+    "padj": 1e-08,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGGCGAGCGCCGTTCCGAAGGGACGGGCGATGGCCTCCGTTGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.06407,
+    "pvalue": 0.04261213,
+    "padj": 0.00127142,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGTTGAACATGGGTCAGTCGGTCCTAAGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.834269,
+    "pvalue": 0.0298712,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,AATACAGGACTCTTT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.640691,
+    "pvalue": 0.04438258,
+    "padj": 0.0204096,
+    "regulation": "Up"
+  },
+  {
+    "id": "18S-rRNA,AGATTGAGAGCTCTTTCTCGATTCCGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.686632,
+    "pvalue": 0.0486743,
+    "padj": 2.01e-05,
+    "regulation": "Up"
+  },
+  {
+    "id": "18S-rRNA,ATGAACGAGGAATTCCC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.731534,
+    "pvalue": 0.0464838,
+    "padj": 1.42e-05,
+    "regulation": "Up"
+  },
+  {
+    "id": "18S-rRNA,AATACAGGACTCTTTC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.772064,
+    "pvalue": 0.02490198,
+    "padj": 1e-08,
+    "regulation": "Up"
+  },
+  {
+    "id": "18S-rRNA,AGATTGAGAGCTCTTTCTCGATTC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.781036,
+    "pvalue": 0.04224055,
+    "padj": 0.01188561,
+    "regulation": "Up"
+  },
+  {
+    "id": "18S-rRNA,AGATTGAGAGCTCTTTCTCGATT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.805705,
+    "pvalue": 0.03416467,
+    "padj": 0.02236066,
+    "regulation": "Up"
+  },
+  {
+    "id": "28S-rRNA,AGGTGCAGATCTTGGTGGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.80779,
+    "pvalue": 0.03075863,
+    "padj": 0.0,
+    "regulation": "Up"
+  },
+  {
+    "id": "18S-rRNA,ATTCGTATTGTGCCGCT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.824065,
+    "pvalue": 0.0211747,
+    "padj": 0.0,
+    "regulation": "Up"
+  },
+  {
+    "id": "18S-rRNA,GATGGTACTGTCTGTGCCTAC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.838216,
+    "pvalue": 0.03386681,
+    "padj": 0.0,
+    "regulation": "Up"
+  },
+  {
+    "id": "18S-rRNA,CTTAGTTGGTGGAGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.949448,
+    "pvalue": 0.03541474,
+    "padj": 7.87e-05,
+    "regulation": "Up"
+  },
+  {
+    "id": "18S-rRNA,GAACGAGGAATTCCC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.980992,
+    "pvalue": 0.02890625,
+    "padj": 0.0,
+    "regulation": "Up"
+  },
+  {
+    "id": "18S-rRNA,ACTGTCTGTGCCTACC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.99899,
+    "pvalue": 0.03095032,
+    "padj": 0.0,
+    "regulation": "Up"
+  },
+  {
+    "id": "28S-rRNA,GCAGATCTTGGTGGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.863407,
+    "pvalue": 0.05101215,
+    "padj": 0.00192595,
+    "regulation": "Up"
+  },
+  {
+    "id": "28S-rRNA,ATTCAAACGAGAGCTTTGAAGGCC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.814732,
+    "pvalue": 0.05598233,
+    "padj": 0.0,
+    "regulation": "Up"
+  },
+  {
+    "id": "18S-rRNA,ATGTCTAAGTACACACGGGCGGTACAGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.665138,
+    "pvalue": 0.05749525,
+    "padj": 0.03380978,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,ATTCAAACGAGAGCTTTGAAGGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.686765,
+    "pvalue": 0.06172737,
+    "padj": 0.0,
+    "regulation": "Up"
+  },
+  {
+    "id": "18S-rRNA,ACCGATTGGATGGTTT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.840632,
+    "pvalue": 0.06212587,
+    "padj": 4.54e-06,
+    "regulation": "Up"
+  },
+  {
+    "id": "28S-rRNA,CGTTGCCCTCAGCCGATCGAAAGGGAGTCGGGTTC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.501637,
+    "pvalue": 0.06943455,
+    "padj": 0.0460083,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,AGATTGAGAGCTCTT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.807699,
+    "pvalue": 0.07134987,
+    "padj": 0.0,
+    "regulation": "Up"
+  },
+  {
+    "id": "28S-rRNA,AGGGTTCCATGTGAACAGCAGTTGAACATGGGTC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.7061,
+    "pvalue": 0.07191191,
+    "padj": 0.03054639,
+    "regulation": "Up"
+  },
+  {
+    "id": "28S-rRNA,ATGGGTCAGTCGGTCCTAAGCGATAGGCGAGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.640271,
+    "pvalue": 0.08011875,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,ACACGGGCGGTACAGTGAAACTGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.937179,
+    "pvalue": 0.08165648,
+    "padj": 0.00582891,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,TTGGACCGGCGCAAGACG",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.678515,
+    "pvalue": 0.0833203,
+    "padj": 0.00665794,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAGAGCTTTGAAGGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.699321,
+    "pvalue": 0.08385887,
+    "padj": 0.0,
+    "regulation": "Up"
+  },
+  {
+    "id": "28S-rRNA,ATGGGTCAGTCGGTCCTAAGCGATAGGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.842187,
+    "pvalue": 0.08471577,
+    "padj": 2.06e-06,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGTTGAACATGGGTCAGTCGGTCCTAAGCGATAGGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.787398,
+    "pvalue": 0.08692847,
+    "padj": 0.04613135,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GTTGCCCTCAGCCGATCGAAAGGGAGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.380664,
+    "pvalue": 0.08974208,
+    "padj": 0.00128017,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGTTGAACATGGGTCAGTCGGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.710366,
+    "pvalue": 0.08977016,
+    "padj": 0.0013418,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGCAGTTGAACATGGGTCAGTCGGTCCTAAGCGAT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.367365,
+    "pvalue": 0.09126493,
+    "padj": 8.05e-05,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGGCGAGCGCCGTTC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.812185,
+    "pvalue": 0.09253791,
+    "padj": 0.01177283,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAACATGGGTCAGTCGGTCCTAAGCGATAGGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.427834,
+    "pvalue": 0.09308752,
+    "padj": 0.00095626,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGTTGAACATGGGTCAGTCGGTCCT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.872374,
+    "pvalue": 0.09641648,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGTTGAACATGGGTCAGTCGGTCCTAAGCGAT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.848414,
+    "pvalue": 0.09697235,
+    "padj": 1e-08,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,CGAAGGGACGGGCGATGGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.691596,
+    "pvalue": 0.09722894,
+    "padj": 0.00758434,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAACATGGGTCAGTCGGTCCTAAGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.100503,
+    "pvalue": 0.09935059,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGATCCCCGAATCCGGAGCGGCGGAGAC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.053059,
+    "pvalue": 0.10155974,
+    "padj": 0.02924897,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGGCGAGCGCCGTTCCGAAGGGACGGGCGAT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.279914,
+    "pvalue": 0.10164867,
+    "padj": 0.00010599,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AAACGAGAGCTTTGAAGGCCGAAGTGGAGCAGGGTTCC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.644155,
+    "pvalue": 0.10179107,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,CCCGAATCCGGAGCGGCGGAGACGGGCGCCGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.360071,
+    "pvalue": 0.1019972,
+    "padj": 0.01940838,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAACATGGGTCAGTCGGTCCTAAGCGAT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.313395,
+    "pvalue": 0.10225382,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,ATTCAAACGAGAGCTTTGAAGGCCGAAGTGGAGCAGGGTTCC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.279761,
+    "pvalue": 0.10318322,
+    "padj": 0.02453223,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,ATGATTAAGAGGGAC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.817977,
+    "pvalue": 0.10514849,
+    "padj": 0.00108607,
+    "regulation": "Up"
+  },
+  {
+    "id": "18S-rRNA,ATGTCTAAGTACACACGGGCGGTAC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.04539,
+    "pvalue": 0.10521259,
+    "padj": 8.37e-06,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAATCCGGAGCGGCGGAGAC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.457986,
+    "pvalue": 0.10540827,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGTTGAACATGGGTCAGTCGGTCC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.351889,
+    "pvalue": 0.10623104,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGGCGAGCGCCGTTCCGAAGG",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.50404,
+    "pvalue": 0.1074299,
+    "padj": 0.00037308,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,CCGAATCCGGAGCGGCGGAGACGGGCGCCGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.537095,
+    "pvalue": 0.10767336,
+    "padj": 0.00022648,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGCAGTTGAACATGGGTCAGTCGGTCC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.337112,
+    "pvalue": 0.10857074,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAGAGCTTTGAAGGCCGAAGTGGAGCAGGGTTCCATGTGAACAGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.001277,
+    "pvalue": 0.10918665,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,GATGGTACTGTCTGTGCCTACC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.621609,
+    "pvalue": 0.10928998,
+    "padj": 0.0,
+    "regulation": "Up"
+  },
+  {
+    "id": "28S-rRNA,CGAATCCGGAGCGGCGGAGACGGGCGCCGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.066253,
+    "pvalue": 0.10929458,
+    "padj": 0.00077886,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,ACACACGGGCGGTAC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.007534,
+    "pvalue": 0.11027693,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,CCGGAGCGGCGGAGAC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.120426,
+    "pvalue": 0.11070014,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,ATGGGTCAGTCGGTCCTAAGCGATAGGCG",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.23983,
+    "pvalue": 0.11100288,
+    "padj": 0.01183977,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGATCCCCGAATCCGGAGCGGCGG",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.118702,
+    "pvalue": 0.11356503,
+    "padj": 0.00626601,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAACATGGGTCAGTCGGTCC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.346556,
+    "pvalue": 0.11404576,
+    "padj": 6.62e-06,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGCAGTTGAACATGGGTCAGTCGGTCCT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.64552,
+    "pvalue": 0.11791448,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGCAGTTGAACATGGGTCAGTCGGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.210896,
+    "pvalue": 0.11935983,
+    "padj": 0.01074577,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAGAGCTTTGAAGGCCGAAGTGGAGCAGGGTTCC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.877439,
+    "pvalue": 0.12023758,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AAACGAGAGCTTTGAAGGCCGAAGTGGAGCAGGGTTCCATGTG",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.71319,
+    "pvalue": 0.12213145,
+    "padj": 0.00647606,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AAACGAGAGCTTTGAAGGCCGAAGTGGAGCAGGGTTC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.296073,
+    "pvalue": 0.12283416,
+    "padj": 0.02830957,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,CTTGGACCGGCGCAAGACG",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.636784,
+    "pvalue": 0.12299607,
+    "padj": 0.00111694,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAAGGGACGGGCGATGGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.844053,
+    "pvalue": 0.12315911,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AAGCGATAGGCGAGCGCCGTTCCGAAGGGACGGGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.654716,
+    "pvalue": 0.12322237,
+    "padj": 0.00035528,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,TGGACCGGCGCAAGAC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.1397,
+    "pvalue": 0.12517593,
+    "padj": 0.00262463,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGGCGAGCGCCGTTCCGAAGGGAC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.226609,
+    "pvalue": 0.12542823,
+    "padj": 6.26e-05,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,CGGAGAGGGAGCCTGAGAAACGGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.465418,
+    "pvalue": 0.12591233,
+    "padj": 1.64e-06,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAGAGCTTTGAAGGCCGAAGTGGAGCAGGGTTCCAT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.661625,
+    "pvalue": 0.12610221,
+    "padj": 0.03059653,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,CGGCGCAAGACGAACTAAAGCGAAAGCATTTGCC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.621203,
+    "pvalue": 0.12645491,
+    "padj": 0.00533028,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GATAGGCGAGCGCCGTTCCGAAGGGACGGGCGATGGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.312965,
+    "pvalue": 0.13022104,
+    "padj": 0.00030322,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,GAGAGCTCTTTCTCGATTCCGTGGGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.043243,
+    "pvalue": 0.13196814,
+    "padj": 6.17e-05,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GATAGGCGAGCGCCGTTCCGAAGGGACGGGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.582176,
+    "pvalue": 0.13279661,
+    "padj": 3.8e-07,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AAGCGATAGGCGAGCGCCGTTCCGAAGGGACGGGCGATGGCCT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.846101,
+    "pvalue": 0.13327776,
+    "padj": 8.3e-07,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,ATGCATGTCTAAGTACACACGGGCGGTAC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.665447,
+    "pvalue": 0.13488104,
+    "padj": 1.16e-06,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAGCGCCGTTCCGAAGGGAC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.010813,
+    "pvalue": 0.13521771,
+    "padj": 0.00027837,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAAGGCCGAAGTGGAGCAGGGTT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.730795,
+    "pvalue": 0.13532793,
+    "padj": 0.00748652,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAAGGGACGGGCGATGGCCT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.955905,
+    "pvalue": 0.13545672,
+    "padj": 3.9e-07,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,CGGAGAGGGAGCCTGAGA",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.788334,
+    "pvalue": 0.13639844,
+    "padj": 0.01775981,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGATCCCCGAATCCGGAGCGGCGGAGACGGGCGCCGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.603209,
+    "pvalue": 0.13682945,
+    "padj": 0.00022542,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,GAAAGTCGGAGGTTCGAAGACGAT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.911698,
+    "pvalue": 0.13717329,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAAGGGACGGGCGATGGCCTC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.102839,
+    "pvalue": 0.13809001,
+    "padj": 0.00014191,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAACATGGGTCAGTCGGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.148734,
+    "pvalue": 0.13890549,
+    "padj": 2.17e-06,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,CGAAGGGACGGGCGATGGCCTCCGTTGCCCT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.793478,
+    "pvalue": 0.13900197,
+    "padj": 5.76e-06,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,CGGAGCGGCGGAGACGGGCGCCGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.73037,
+    "pvalue": 0.13945378,
+    "padj": 2.01e-06,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,CCGGAGCGGCGGAGACGGGCGCCGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.419515,
+    "pvalue": 0.13999186,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAGAGCTTTGAAGGCCGAAGTGGAGCAGGGTT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.895677,
+    "pvalue": 0.14022104,
+    "padj": 0.00014923,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAATCCGGAGCGGCGGAGACGGGCGCCGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.438409,
+    "pvalue": 0.14403247,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,TTGGACCGGCGCAAGAC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.067564,
+    "pvalue": 0.14511134,
+    "padj": 0.00034055,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAGAGCTTTGAAGGCCGAAGTGGAGCAGGGTTCCATGTG",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.724721,
+    "pvalue": 0.14566632,
+    "padj": 0.00028199,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,GAAAGTCGGAGGTTCGAAGAC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.285093,
+    "pvalue": 0.14704126,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAAGGGACGGGCGATGGCCTCCGTTGCCCT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.261103,
+    "pvalue": 0.14765714,
+    "padj": 0.0001573,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGGCGAGCGCCGTTCCGAAGGGACGGGCGATGGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.957506,
+    "pvalue": 0.14779662,
+    "padj": 2.09e-05,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,ATGTGAACAGCAGTTGAACATGGGTCAGTCGGTCCT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.849541,
+    "pvalue": 0.14807256,
+    "padj": 0.01274539,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,ATGTGAACAGCAGTTGAACATGGGTCAGTCGGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.684577,
+    "pvalue": 0.14842173,
+    "padj": 0.01083132,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AAACGAGAGCTTTGAAGGCCGAAGTGGAGCAGGGTT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.508475,
+    "pvalue": 0.14856568,
+    "padj": 0.03307303,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AAGCGATAGGCGAGCGCCGTTCCGAAGGGACGGGCGATGGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.809785,
+    "pvalue": 0.14910032,
+    "padj": 0.00894542,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAAGGGACGGGCGAT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.275243,
+    "pvalue": 0.14924218,
+    "padj": 6.21e-06,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,CGGAGCGGCGGAGAC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.758041,
+    "pvalue": 0.15129036,
+    "padj": 0.00021206,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,ATGCATGTCTAAGTACACACGGGCGGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.141034,
+    "pvalue": 0.15178137,
+    "padj": 7e-08,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,CGGAGAGGGAGCCTGAGAAACGGCT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.432041,
+    "pvalue": 0.15295918,
+    "padj": 6e-08,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,AGATTGAGAGCTCTTT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.64636,
+    "pvalue": 0.153424,
+    "padj": 0.0,
+    "regulation": "Up"
+  },
+  {
+    "id": "18S-rRNA,ACACGGGCGGTACAGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.803599,
+    "pvalue": 0.15636315,
+    "padj": 0.00209356,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,CGGCGCAAGACGAACTAAAGCGAAAGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -2.327679,
+    "pvalue": 0.15730648,
+    "padj": 0.00017564,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,ATGGGTCAGTCGGTCC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.751358,
+    "pvalue": 0.15852396,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGGCGAGCGCCGTTCCGAAGGGACGGGC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.476436,
+    "pvalue": 0.15895486,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,GAACGAGGAATTCCCAGTAAGTGCGGGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -3.058806,
+    "pvalue": 0.16002006,
+    "padj": 2.17e-05,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GCCGATCGAAAGGGAGTCGGGTT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.260184,
+    "pvalue": 0.16348378,
+    "padj": 0.00458496,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,AGAGGGACAAGTGGCGTTC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.093701,
+    "pvalue": 0.16503457,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,GAGAGCTCTTTCTCGATTCCGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.615239,
+    "pvalue": 0.17222013,
+    "padj": 0.04766514,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGGTGCAGATCTTGGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 0.594759,
+    "pvalue": 0.17365353,
+    "padj": 1.69e-06,
+    "regulation": "Up"
+  },
+  {
+    "id": "28S-rRNA,CAGCCGATCGAAAGGGAGTCGGGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.405161,
+    "pvalue": 0.17515634,
+    "padj": 0.00508206,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,AGAGGGACAAGTGGCGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.447429,
+    "pvalue": 0.17582329,
+    "padj": 0.02107868,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,GGAGAGGGAGCCTGAGAAACGGCT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.112759,
+    "pvalue": 0.18258859,
+    "padj": 0.00032926,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GCCGATCGAAAGGGAGTCGGGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.108584,
+    "pvalue": 0.18298734,
+    "padj": 3.49e-05,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGCCGATCGAAAGGGAGTCGGGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.082432,
+    "pvalue": 0.18354814,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,AGAGGGACAAGTGGCGTTCAGCCAC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.364122,
+    "pvalue": 0.18520747,
+    "padj": 5.01e-05,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,CAGCCGATCGAAAGGGAGTCGGGTT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.079743,
+    "pvalue": 0.19083569,
+    "padj": 0.04241455,
+    "regulation": "Down"
+  },
+  {
+    "id": "18S-rRNA,AGAGGGACAAGTGGCGTT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -1.077246,
+    "pvalue": 0.20171005,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,AGCCGATCGAAAGGGAGTCGGGTT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.655549,
+    "pvalue": 0.21530283,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,ATGGGTCAGTCGGTC",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.830936,
+    "pvalue": 0.2266884,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,GAAAGGGAGTCGGGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.629311,
+    "pvalue": 0.22725485,
+    "padj": 0.0,
+    "regulation": "Down"
+  },
+  {
+    "id": "28S-rRNA,CCGATCGAAAGGGAGTCGGGT",
+    "type": "rsRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -0.724453,
+    "pvalue": 0.27470404,
+    "padj": 0.01693993,
+    "regulation": "Down"
+  }
+]

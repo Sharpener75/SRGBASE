@@ -37,7 +37,7 @@ const navItems: NavItem[] = [
     dropdown: [
       ...subclassItems.flatMap(s => [
         { label: `${s.label} — Promoter`, to: `/targets/${s.label}_promoter` },
-        { label: `${s.label} — RNA body`, to: `/targets/${s.label}_RNA_body` },
+        { label: `${s.label} — RNA/Gene Body`, to: `/targets/${s.label}_body` },
       ]),
     ],
   },

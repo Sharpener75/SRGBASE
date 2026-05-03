@@ -1,0 +1,32 @@
+[
+  {
+    "id": "gga-miR-7",
+    "type": "miRNA",
+    "tissue": "Hypothalamus",
+    "comparison": "HT-16_vs_HT-35",
+    "log2FC": -2.978234,
+    "pvalue": 0.02500707,
+    "padj": 0.03803691,
+    "regulation": "Down"
+  },
+  {
+    "id": "gga-miR-143-3p",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": 1.447122,
+    "pvalue": 0.01007633,
+    "padj": 0.0,
+    "regulation": "Up"
+  },
+  {
+    "id": "gga-miR-451",
+    "type": "miRNA",
+    "tissue": "Ovary",
+    "comparison": "OV-16_vs_OV-35",
+    "log2FC": -7.951828,
+    "pvalue": 0.07700281,
+    "padj": 0.0,
+    "regulation": "Down"
+  }
+]

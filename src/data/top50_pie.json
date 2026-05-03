@@ -1,0 +1,106 @@
+{
+  "miRNA": [
+    {
+      "name": "Hypothalamus 16w",
+      "value": 1238.083
+    },
+    {
+      "name": "Hypothalamus 35w",
+      "value": 1200.741
+    },
+    {
+      "name": "Pituitary 16w",
+      "value": 1058.024
+    },
+    {
+      "name": "Pituitary 35w",
+      "value": 1062.723
+    },
+    {
+      "name": "Ovary 16w",
+      "value": 855.284
+    },
+    {
+      "name": "Ovary 35w",
+      "value": 893.503
+    }
+  ],
+  "piRNA": [
+    {
+      "name": "Hypothalamus 16w",
+      "value": 123197.731
+    },
+    {
+      "name": "Hypothalamus 35w",
+      "value": 128867.948
+    },
+    {
+      "name": "Pituitary 16w",
+      "value": 116177.195
+    },
+    {
+      "name": "Pituitary 35w",
+      "value": 133641.874
+    },
+    {
+      "name": "Ovary 16w",
+      "value": 73859.819
+    },
+    {
+      "name": "Ovary 35w",
+      "value": 84015.482
+    }
+  ],
+  "tsRNA": [
+    {
+      "name": "Hypothalamus 16w",
+      "value": 275714.703
+    },
+    {
+      "name": "Hypothalamus 35w",
+      "value": 292774.808
+    },
+    {
+      "name": "Pituitary 16w",
+      "value": 129262.32
+    },
+    {
+      "name": "Pituitary 35w",
+      "value": 134917.665
+    },
+    {
+      "name": "Ovary 16w",
+      "value": 52214.562
+    },
+    {
+      "name": "Ovary 35w",
+      "value": 85894.847
+    }
+  ],
+  "rsRNA": [
+    {
+      "name": "Hypothalamus 16w",
+      "value": 196948.217
+    },
+    {
+      "name": "Hypothalamus 35w",
+      "value": 193312.223
+    },
+    {
+      "name": "Pituitary 16w",
+      "value": 186442.633
+    },
+    {
+      "name": "Pituitary 35w",
+      "value": 193022.381
+    },
+    {
+      "name": "Ovary 16w",
+      "value": 183340.206
+    },
+    {
+      "name": "Ovary 35w",
+      "value": 197978.373
+    }
+  ]
+}

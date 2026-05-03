@@ -1,22 +1,9 @@
 // ── Overview / Homepage
-export interface ReadPct {
-  miRNA: number
-  piRNA: number
-  tsRNA: number
-  rsRNA: number
-}
-
 export interface TimepointData {
   miRNA: number
   piRNA: number
   tsRNA: number
   rsRNA: number
-  readPct: ReadPct
-}
-
-export interface TissueCalloutData {
-  '16w': TimepointData
-  '35w': TimepointData
 }
 
 export interface OverviewData {
@@ -25,24 +12,36 @@ export interface OverviewData {
   timepoints: number
   libraries: number
   hpoCallouts: {
-    Hypothalamus: TissueCalloutData
-    Pituitary: TissueCalloutData
-    Ovary: TissueCalloutData
+    Hypothalamus: { '16w': TimepointData; '35w': TimepointData }
+    Pituitary:    { '16w': TimepointData; '35w': TimepointData }
+    Ovary:        { '16w': TimepointData; '35w': TimepointData }
   }
+  readDistribution: { miRNA: number; piRNA: number; tsRNA: number; rsRNA: number }
 }
 
-// ── sncRNA Categories
+// ── Shared union types
 export type SncRNAType = 'miRNA' | 'piRNA' | 'tsRNA' | 'rsRNA'
 export type Tissue = 'Hypothalamus' | 'Pituitary' | 'Ovary'
 export type Timepoint = '16w' | '35w'
 
-export interface SncRNACategory {
-  id: string
-  type: SncRNAType
+// ── sncRNA Categories
+export interface CategoryCount {
   tissue: Tissue
   timepoint: Timepoint
-  expression: number
-  sequence: string
+  type: SncRNAType
+  count: number
+}
+
+export interface LengthSeries {
+  lengths: number[]
+  series: { sample: string; values: number[] }[]
+}
+
+export interface LengthDistribution {
+  miRNA: LengthSeries
+  piRNA: LengthSeries
+  tsRNA: LengthSeries
+  rsRNA: LengthSeries
 }
 
 // ── Top 50
@@ -52,14 +51,24 @@ export interface Top50Entry {
   type: SncRNAType
   tissue: Tissue
   timepoint: Timepoint
-  readCount: number
-  percentReads: number
+  tpm: number
+  percentTPM: number
   seedSequence: string
-  sequence: string
 }
+
+export type Top50PieData = Record<SncRNAType, { name: string; value: number }[]>
 
 // ── Differential Expression
 export type RegulationType = 'Up' | 'Down' | 'NS'
+
+export interface DEVolcanoRecord {
+  id: string
+  type: SncRNAType
+  tissue: Tissue
+  log2FC: number
+  padj: number
+  regulation: RegulationType
+}
 
 export interface DERecord {
   id: string
@@ -73,17 +82,19 @@ export interface DERecord {
 }
 
 // ── Target Gene Prediction
-export type InteractionType = 'promoter' | 'RNA_body'
+export type BindingSite = 'promoter' | 'body'
+export type TargetExpression = 'Upregulated' | 'Downregulated'
 
 export interface TargetEntry {
   id: string
   sncRNAId: string
   sncRNAType: SncRNAType
-  interactionType: InteractionType
+  bindingSite: BindingSite
+  bindingSiteLabel: string
   targetGene: string
   geneDescription: string
-  score: number
-  targetSequence: string
+  mfe: number
+  targetExpression: TargetExpression
   tissue: Tissue
 }
 

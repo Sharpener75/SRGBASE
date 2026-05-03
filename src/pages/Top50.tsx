@@ -5,11 +5,12 @@ import PieChart from '../components/PieChart'
 import SequenceLogo from '../components/SequenceLogo'
 import DataTable from '../components/DataTable'
 import { parseFiltersFromURL, filtersToSearchParams } from '../utils/filterUtils'
-import { formatReadCount } from '../utils/formatters'
-import type { Top50Entry, ColumnDef, FilterState } from '../types'
+import type { Top50Entry, Top50PieData, SncRNAType, ColumnDef, FilterState } from '../types'
 import rawData from '../data/top50.json'
+import rawPie from '../data/top50_pie.json'
 
 const allData = rawData as Top50Entry[]
+const pieDataAll = rawPie as Top50PieData
 
 const columns: ColumnDef<Top50Entry>[] = [
   { key: 'rank', header: 'Rank', sortable: true, width: 'w-16' },
@@ -23,9 +24,9 @@ const columns: ColumnDef<Top50Entry>[] = [
   },
   { key: 'tissue', header: 'Tissue', sortable: true },
   { key: 'timepoint', header: 'Time Point', sortable: true },
-  { key: 'readCount', header: 'Read Count', sortable: true,
-    render: (v) => formatReadCount(v as number) },
-  { key: 'percentReads', header: '% Reads', sortable: true,
+  { key: 'tpm', header: 'Expression (TPM)', sortable: true,
+    render: (v) => (v as number).toLocaleString('en-US', { maximumFractionDigits: 2 }) },
+  { key: 'percentTPM', header: '% TPM', sortable: true,
     render: (v) => `${(v as number).toFixed(2)}%` },
   { key: 'seedSequence', header: 'Seed (2–8 nt)',
     render: (v) => (
@@ -35,14 +36,6 @@ const columns: ColumnDef<Top50Entry>[] = [
 ]
 
 const PIE_COLORS = ['#7D3C98', '#C39BD3', '#2E86C1', '#85C1E9', '#D4AC0D', '#F9E79F']
-const TISSUE_TIMEPOINTS = [
-  { tissue: 'Hypothalamus', timepoint: '16w' },
-  { tissue: 'Hypothalamus', timepoint: '35w' },
-  { tissue: 'Pituitary',    timepoint: '16w' },
-  { tissue: 'Pituitary',    timepoint: '35w' },
-  { tissue: 'Ovary',        timepoint: '16w' },
-  { tissue: 'Ovary',        timepoint: '35w' },
-]
 
 export default function Top50() {
   const { subclass } = useParams<{ subclass: string }>()
@@ -54,6 +47,8 @@ export default function Top50() {
     setSearchParams(filtersToSearchParams(updated), { replace: true })
   }
 
+  const currentSubclass = (subclass && subclass !== 'All' ? subclass : 'miRNA') as SncRNAType
+
   const filtered = useMemo(() => {
     return allData.filter(row => {
       if (subclass && subclass !== 'All' && row.type !== subclass) return false
@@ -63,21 +58,11 @@ export default function Top50() {
     }).slice(0, 50)
   }, [subclass, filters])
 
-  // Pie data: reads per tissue×timepoint for selected sncRNA type (ignores tissue/timepoint filters)
-  const pieData = useMemo(() => {
-    const typeFiltered = allData.filter(row =>
-      !subclass || subclass === 'All' || row.type === subclass
-    )
-    return TISSUE_TIMEPOINTS.map(({ tissue, timepoint }) => {
-      const total = typeFiltered
-        .filter(r => r.tissue === tissue && r.timepoint === timepoint)
-        .reduce((sum, r) => sum + r.readCount, 0)
-      return { name: `${tissue} ${timepoint}`, value: total }
-    }).filter(d => d.value > 0)
-  }, [subclass])
+  // Pie data: from top50_pie.json, keyed by subclass
+  const pieData = pieDataAll[currentSubclass] ?? []
 
   // Seed sequences for logo
-  const seeds = useMemo(() => filtered.map(r => r.seedSequence), [filtered])
+  const seeds = useMemo(() => filtered.map(r => r.seedSequence).filter(Boolean), [filtered])
 
   return (
     <div className="max-w-screen-xl mx-auto px-4 py-8">
@@ -89,7 +74,7 @@ export default function Top50() {
           )}
         </h1>
         <p className="text-sm text-gray-500 mt-1">
-          Most abundant small non-coding RNAs ranked by read count.
+          Most abundant small non-coding RNAs ranked by expression (TPM).
         </p>
       </div>
 
@@ -106,7 +91,7 @@ export default function Top50() {
             <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-5">
               <PieChart
                 data={pieData}
-                title={subclass && subclass !== 'All' ? `${subclass} Reads by Tissue & Timepoint` : 'Reads by Tissue & Timepoint'}
+                title={`${currentSubclass} TPM by Tissue & Timepoint`}
                 colors={PIE_COLORS}
               />
             </div>

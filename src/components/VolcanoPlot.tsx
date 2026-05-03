@@ -1,9 +1,9 @@
 import { useRef, useEffect, useState } from 'react'
 import * as d3 from 'd3'
-import type { DERecord } from '../types'
+import type { DEVolcanoRecord } from '../types'
 
 interface VolcanoPlotProps {
-  data: DERecord[]
+  data: DEVolcanoRecord[]
   log2fcThreshold: number
   padjThreshold: number
   hoveredId: string | null
@@ -13,7 +13,7 @@ interface VolcanoPlotProps {
 interface TooltipState {
   x: number
   y: number
-  record: DERecord
+  record: DEVolcanoRecord
 }
 
 const UP_COLOR = '#E67E22'
@@ -21,7 +21,7 @@ const DOWN_COLOR = '#2980B9'
 const NS_COLOR = '#BDC3C7'
 const MARGIN = { top: 20, right: 30, bottom: 50, left: 60 }
 
-function getColor(d: DERecord) {
+function getColor(d: DEVolcanoRecord) {
   if (d.regulation === 'Up') return UP_COLOR
   if (d.regulation === 'Down') return DOWN_COLOR
   return NS_COLOR
@@ -126,7 +126,7 @@ export default function VolcanoPlot({
 
     // Data points
     g.append('g').attr('class', 'points')
-      .selectAll<SVGCircleElement, DERecord>('circle')
+      .selectAll<SVGCircleElement, DEVolcanoRecord>('circle')
       .data(data, d => d.id)
       .join('circle')
       .attr('class', 'point')
@@ -137,7 +137,7 @@ export default function VolcanoPlot({
       .attr('fill', d => getColor(d))
       .attr('opacity', 0.75)
       .attr('stroke', 'none')
-      .on('mouseover', function(event: MouseEvent, d: DERecord) {
+      .on('mouseover', function(event: MouseEvent, d: DEVolcanoRecord) {
         const rect = containerRef.current!.getBoundingClientRect()
         setTooltip({
           x: event.clientX - rect.left,
@@ -167,7 +167,7 @@ export default function VolcanoPlot({
   useEffect(() => {
     if (!svgRef.current) return
     d3.select(svgRef.current)
-      .selectAll<SVGCircleElement, DERecord>('circle.point')
+      .selectAll<SVGCircleElement, DEVolcanoRecord>('circle.point')
       .attr('r', d => d.id === hoveredId ? 8 : 4)
       .attr('opacity', d => hoveredId && d.id !== hoveredId ? 0.15 : 0.75)
       .attr('stroke', d => d.id === hoveredId ? '#2C3E50' : 'none')

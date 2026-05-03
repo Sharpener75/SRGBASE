@@ -9,13 +9,11 @@ const overview = overviewData as OverviewData
 const PIE_COLORS = ['#1B4F72', '#1ABC9C', '#E67E22', '#8E44AD']
 const TYPE_KEYS = ['miRNA', 'piRNA', 'tsRNA', 'rsRNA'] as const
 
-// Aggregate read counts across all tissue×timepoint combinations
-const typeTotals = TYPE_KEYS.map(type => {
-  const total = Object.values(overview.hpoCallouts).reduce((sum, tissuData) => {
-    return sum + Object.values(tissuData).reduce((s, tp) => s + (tp as Record<string, number>)[type], 0)
-  }, 0)
-  return { name: type, value: total }
-})
+// Read distribution percentages from overview data
+const typeTotals = TYPE_KEYS.map(type => ({
+  name: type,
+  value: overview.readDistribution[type],
+}))
 
 const statCards = [
   {
