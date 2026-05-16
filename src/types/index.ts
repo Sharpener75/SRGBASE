@@ -66,6 +66,7 @@ export interface DEVolcanoRecord {
   type: SncRNAType
   tissue: Tissue
   log2FC: number
+  pvalue: number
   padj: number
   regulation: RegulationType
 }

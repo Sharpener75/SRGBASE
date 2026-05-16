@@ -29,7 +29,7 @@ export default function DiffExpression() {
 
   const [hoveredId, setHoveredId] = useState<string | null>(null)
   const [log2fcThreshold, setLog2fcThreshold] = useState(1.0)
-  const [padjThreshold, setPadjThreshold] = useState(0.05)
+  const [pvalueThreshold, setPvalueThreshold] = useState(0.05)
   const [volcanoData, setVolcanoData] = useState<DEVolcanoRecord[]>([])
   const [sigData, setSigData] = useState<DERecord[]>([])
 
@@ -91,8 +91,6 @@ export default function DiffExpression() {
     },
     { key: 'pvalue', header: 'p-value', sortable: true,
       render: (v) => formatPadj(v as number) },
-    { key: 'padj', header: 'adj. p-value', sortable: true,
-      render: (v) => formatPadj(v as number) },
     {
       key: 'regulation',
       header: 'Regulation',
@@ -148,12 +146,12 @@ export default function DiffExpression() {
               </div>
               <div>
                 <label className="text-xs font-medium text-gray-600 block mb-1">
-                  adj. p-value ≤ {padjThreshold}
+                  p-value ≤ {pvalueThreshold}
                 </label>
                 <input
                   type="range" min={0.01} max={0.2} step={0.01}
-                  value={padjThreshold}
-                  onChange={e => setPadjThreshold(Number(e.target.value))}
+                  value={pvalueThreshold}
+                  onChange={e => setPvalueThreshold(Number(e.target.value))}
                   className="w-full accent-primary"
                 />
               </div>
@@ -184,7 +182,7 @@ export default function DiffExpression() {
                 <VolcanoPlot
                   data={filteredVolcano}
                   log2fcThreshold={log2fcThreshold}
-                  padjThreshold={padjThreshold}
+                  pvalueThreshold={pvalueThreshold}
                   hoveredId={hoveredId}
                   onHoverChange={setHoveredId}
                 />
@@ -197,7 +195,7 @@ export default function DiffExpression() {
             <h3 className="font-semibold text-gray-700 mb-4">
               Significant DE Results
               <span className="ml-2 text-xs font-normal text-gray-400">
-                (|log₂FC| ≥ 0.585 & adj. p-value &lt; 0.05)
+                (|Log₂FC| ≥ 0.585 & p-value ≤ 0.05)
               </span>
             </h3>
             <DataTable

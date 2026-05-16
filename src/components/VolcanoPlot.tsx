@@ -5,7 +5,7 @@ import type { DEVolcanoRecord } from '../types'
 interface VolcanoPlotProps {
   data: DEVolcanoRecord[]
   log2fcThreshold: number
-  padjThreshold: number
+  pvalueThreshold: number
   hoveredId: string | null
   onHoverChange: (id: string | null) => void
 }
@@ -28,7 +28,7 @@ function getColor(d: DEVolcanoRecord) {
 }
 
 export default function VolcanoPlot({
-  data, log2fcThreshold, padjThreshold, hoveredId, onHoverChange
+  data, log2fcThreshold, pvalueThreshold, hoveredId, onHoverChange
 }: VolcanoPlotProps) {
   const svgRef = useRef<SVGSVGElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
@@ -59,7 +59,7 @@ export default function VolcanoPlot({
     const g = svg.append('g').attr('transform', `translate(${MARGIN.left},${MARGIN.top})`)
 
     const xExtent = d3.extent(data, d => d.log2FC) as [number, number]
-    const yExtent = [0, d3.max(data, d => -Math.log10(d.padj))! * 1.1] as [number, number]
+    const yExtent = [0, d3.max(data, d => -Math.log10(d.pvalue))! * 1.1] as [number, number]
     const xPad = Math.max(Math.abs(xExtent[0]), Math.abs(xExtent[1])) * 1.1
 
     const xScale = d3.scaleLinear().domain([-xPad, xPad]).range([0, W])
@@ -92,13 +92,13 @@ export default function VolcanoPlot({
       .attr('transform', 'rotate(-90)')
       .attr('text-anchor', 'middle')
       .style('font-size', '12px').style('font-family', 'IBM Plex Sans').style('fill', '#555')
-      .text('-log₁₀(adj. p-value)')
+      .text('-log₁₀(p-value)')
 
     // Threshold lines
-    const padjLine = -Math.log10(padjThreshold)
+    const pvalueLine = -Math.log10(pvalueThreshold)
     g.append('line')
       .attr('x1', 0).attr('x2', W)
-      .attr('y1', yScale(padjLine)).attr('y2', yScale(padjLine))
+      .attr('y1', yScale(pvalueLine)).attr('y2', yScale(pvalueLine))
       .attr('stroke', '#999').attr('stroke-dasharray', '4 3').attr('stroke-width', 1)
 
     g.append('line')
@@ -132,7 +132,7 @@ export default function VolcanoPlot({
       .attr('class', 'point')
       .attr('data-id', d => d.id)
       .attr('cx', d => xScale(d.log2FC))
-      .attr('cy', d => yScale(-Math.log10(d.padj)))
+      .attr('cy', d => yScale(-Math.log10(d.pvalue)))
       .attr('r', 4)
       .attr('fill', d => getColor(d))
       .attr('opacity', 0.75)
@@ -161,7 +161,7 @@ export default function VolcanoPlot({
     g.append('text').attr('x', 5).attr('y', 15)
       .style('font-size', '11px').style('fill', DOWN_COLOR).style('font-family', 'IBM Plex Sans')
       .text(`↓ ${downCount}`)
-  }, [data, log2fcThreshold, padjThreshold, dims, onHoverChange])
+  }, [data, log2fcThreshold, pvalueThreshold, dims, onHoverChange])
 
   // Effect 2: Hover-only update (lightweight, no redraw)
   useEffect(() => {
@@ -198,7 +198,7 @@ export default function VolcanoPlot({
           <p>Log₂FC: <span className="font-medium" style={{ color: getColor(tooltip.record) }}>
             {tooltip.record.log2FC > 0 ? '+' : ''}{tooltip.record.log2FC.toFixed(3)}
           </span></p>
-          <p>adj. p-value: <span className="font-medium">{tooltip.record.padj < 0.001 ? tooltip.record.padj.toExponential(2) : tooltip.record.padj.toFixed(4)}</span></p>
+          <p>p-value: <span className="font-medium">{tooltip.record.pvalue < 0.001 ? tooltip.record.pvalue.toExponential(2) : tooltip.record.pvalue.toFixed(4)}</span></p>
           <p>Tissue: <span className="font-medium">{tooltip.record.tissue}</span></p>
           <span className={`inline-block mt-1 px-1.5 py-0.5 rounded text-white text-[10px] ${
             tooltip.record.regulation === 'Up' ? 'bg-up-color' :

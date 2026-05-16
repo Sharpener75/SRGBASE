@@ -582,8 +582,8 @@ def parse_diff_expression():
                 pvalue = safe_float(row[col_map.get('pvalue', 3)], 1.0)
                 padj = safe_float(row[col_map.get('padj', 4)], 1.0)
 
-                # Regulation from thresholds (plan: |log2FC|>=0.585 AND padj<0.05)
-                if abs(log2fc) >= 0.585 and padj < 0.05:
+                # Regulation from thresholds (|log2FC|>=0.585 AND raw p-value<=0.05)
+                if abs(log2fc) >= 0.585 and pvalue <= 0.05:
                     reg_raw = str(row[col_map.get('regulate', 6)] or '').strip().lower()
                     if 'up' in reg_raw:
                         regulation = 'Up'
@@ -609,6 +609,7 @@ def parse_diff_expression():
                     'type': sncna_type,
                     'tissue': tissue,
                     'log2FC': round(log2fc, 6),
+                    'pvalue': round(pvalue, 8) if pvalue > 0 else pvalue,
                     'padj': round(padj, 8) if padj > 0 else padj,
                     'regulation': regulation,
                 })
