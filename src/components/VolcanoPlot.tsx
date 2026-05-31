@@ -4,8 +4,6 @@ import type { DEVolcanoRecord } from '../types'
 
 interface VolcanoPlotProps {
   data: DEVolcanoRecord[]
-  log2fcThreshold: number
-  pvalueThreshold: number
   hoveredId: string | null
   onHoverChange: (id: string | null) => void
 }
@@ -21,6 +19,10 @@ const DOWN_COLOR = '#2980B9'
 const NS_COLOR = '#BDC3C7'
 const MARGIN = { top: 20, right: 30, bottom: 50, left: 60 }
 
+// Fixed significance criterion — matches the precomputed Up/Down regulation in the data.
+const LOG2FC_THRESHOLD = 0.585
+const PVALUE_THRESHOLD = 0.05
+
 function getColor(d: DEVolcanoRecord) {
   if (d.regulation === 'Up') return UP_COLOR
   if (d.regulation === 'Down') return DOWN_COLOR
@@ -28,7 +30,7 @@ function getColor(d: DEVolcanoRecord) {
 }
 
 export default function VolcanoPlot({
-  data, log2fcThreshold, pvalueThreshold, hoveredId, onHoverChange
+  data, hoveredId, onHoverChange
 }: VolcanoPlotProps) {
   const svgRef = useRef<SVGSVGElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
@@ -94,22 +96,30 @@ export default function VolcanoPlot({
       .style('font-size', '12px').style('font-family', 'IBM Plex Sans').style('fill', '#555')
       .text('-log₁₀(p-value)')
 
-    // Threshold lines
-    const pvalueLine = -Math.log10(pvalueThreshold)
+    // Fixed reference lines at the significance criterion
+    const pvalueLine = -Math.log10(PVALUE_THRESHOLD)
     g.append('line')
       .attr('x1', 0).attr('x2', W)
       .attr('y1', yScale(pvalueLine)).attr('y2', yScale(pvalueLine))
       .attr('stroke', '#999').attr('stroke-dasharray', '4 3').attr('stroke-width', 1)
+    g.append('text')
+      .attr('x', 4).attr('y', yScale(pvalueLine) - 4)
+      .style('font-size', '9px').style('font-family', 'IBM Plex Sans').style('fill', '#999')
+      .text(`p = ${PVALUE_THRESHOLD}`)
 
     g.append('line')
-      .attr('x1', xScale(-log2fcThreshold)).attr('x2', xScale(-log2fcThreshold))
+      .attr('x1', xScale(-LOG2FC_THRESHOLD)).attr('x2', xScale(-LOG2FC_THRESHOLD))
       .attr('y1', 0).attr('y2', H)
       .attr('stroke', '#999').attr('stroke-dasharray', '4 3').attr('stroke-width', 1)
 
     g.append('line')
-      .attr('x1', xScale(log2fcThreshold)).attr('x2', xScale(log2fcThreshold))
+      .attr('x1', xScale(LOG2FC_THRESHOLD)).attr('x2', xScale(LOG2FC_THRESHOLD))
       .attr('y1', 0).attr('y2', H)
       .attr('stroke', '#999').attr('stroke-dasharray', '4 3').attr('stroke-width', 1)
+    g.append('text')
+      .attr('x', xScale(LOG2FC_THRESHOLD) + 3).attr('y', H - 4)
+      .style('font-size', '9px').style('font-family', 'IBM Plex Sans').style('fill', '#999')
+      .text(`|Log₂FC| = ${LOG2FC_THRESHOLD}`)
 
     // Legend
     const legData = [
@@ -161,7 +171,7 @@ export default function VolcanoPlot({
     g.append('text').attr('x', 5).attr('y', 15)
       .style('font-size', '11px').style('fill', DOWN_COLOR).style('font-family', 'IBM Plex Sans')
       .text(`↓ ${downCount}`)
-  }, [data, log2fcThreshold, pvalueThreshold, dims, onHoverChange])
+  }, [data, dims, onHoverChange])
 
   // Effect 2: Hover-only update (lightweight, no redraw)
   useEffect(() => {

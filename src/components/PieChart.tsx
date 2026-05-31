@@ -29,10 +29,10 @@ function renderCustomLabel({ cx, cy, midAngle, innerRadius, outerRadius, percent
     const pctText = `${pct < 1 ? pct.toFixed(2) : pct.toFixed(1)}%`
     const sx = cx + outerRadius * cos
     const sy = cy + outerRadius * sin
-    const mx = cx + (outerRadius + 12) * cos
-    const my = cy + (outerRadius + 12) * sin
+    const mx = cx + (outerRadius + 10) * cos
+    const my = cy + (outerRadius + 10) * sin
     const side = cos >= 0 ? 1 : -1
-    const ex = mx + side * 20
+    const ex = mx + side * 14
     const color = fill ?? '#1B4F72'
     return (
       <g>
@@ -66,7 +66,7 @@ export default function PieChart({ data, title, colors = DEFAULT_COLORS }: PieCh
         <RechartsPieChart>
           <Pie
             data={data}
-            cx="50%"
+            cx="42%"
             cy="50%"
             outerRadius={90}
             dataKey="value"

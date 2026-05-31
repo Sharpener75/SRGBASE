@@ -29,6 +29,7 @@ export default function DataTable<T extends { id: string }>({
   const [sortDir, setSortDir] = useState<SortDir>('asc')
   const [searchTerm, setSearchTerm] = useState('')
   const [currentPage, setCurrentPage] = useState(1)
+  const [jumpValue, setJumpValue] = useState('')
   const rowRefs = useRef<Record<string, HTMLTableRowElement | null>>({})
 
   // Reset page on filter change
@@ -67,6 +68,14 @@ export default function DataTable<T extends { id: string }>({
   // Paginate
   const totalPages = Math.max(1, Math.ceil(sorted.length / pageSize))
   const paginated = sorted.slice((currentPage - 1) * pageSize, currentPage * pageSize)
+
+  const handleJump = () => {
+    const n = parseInt(jumpValue, 10)
+    if (!Number.isNaN(n)) {
+      setCurrentPage(Math.min(totalPages, Math.max(1, n)))
+    }
+    setJumpValue('')
+  }
 
   if (isLoading) return <TableSkeleton rows={pageSize} />
 
@@ -186,6 +195,21 @@ export default function DataTable<T extends { id: string }>({
             disabled={currentPage === totalPages}
             className="px-2 py-1 rounded border border-gray-200 disabled:opacity-40 hover:bg-gray-100"
           >»</button>
+          {totalPages > 1 && (
+            <span className="flex items-center gap-1 ml-2 text-xs text-gray-400">
+              Go to
+              <input
+                type="number"
+                min={1}
+                max={totalPages}
+                value={jumpValue}
+                onChange={e => setJumpValue(e.target.value)}
+                onKeyDown={e => { if (e.key === 'Enter') handleJump() }}
+                onBlur={handleJump}
+                className="w-12 px-1.5 py-1 border border-gray-200 rounded text-center text-xs text-gray-600 focus:outline-none focus:ring-2 focus:ring-accent/50"
+              />
+            </span>
+          )}
         </div>
       </div>
     </div>

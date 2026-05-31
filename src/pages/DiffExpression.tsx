@@ -28,8 +28,6 @@ export default function DiffExpression() {
   const currentSubclass = (subclass && subclass !== 'All' ? subclass : 'miRNA') as SncRNAType
 
   const [hoveredId, setHoveredId] = useState<string | null>(null)
-  const [log2fcThreshold, setLog2fcThreshold] = useState(1.0)
-  const [pvalueThreshold, setPvalueThreshold] = useState(0.05)
   const [volcanoData, setVolcanoData] = useState<DEVolcanoRecord[]>([])
   const [sigData, setSigData] = useState<DERecord[]>([])
 
@@ -132,28 +130,10 @@ export default function DiffExpression() {
           showTimepoint={false}
           customContent={
             <div className="space-y-4">
-              <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest">Thresholds</p>
-              <div>
-                <label className="text-xs font-medium text-gray-600 block mb-1">
-                  |Log₂FC| ≥ {log2fcThreshold.toFixed(1)}
-                </label>
-                <input
-                  type="range" min={0.5} max={4} step={0.1}
-                  value={log2fcThreshold}
-                  onChange={e => setLog2fcThreshold(Number(e.target.value))}
-                  className="w-full accent-primary"
-                />
-              </div>
-              <div>
-                <label className="text-xs font-medium text-gray-600 block mb-1">
-                  p-value ≤ {pvalueThreshold}
-                </label>
-                <input
-                  type="range" min={0.01} max={0.2} step={0.01}
-                  value={pvalueThreshold}
-                  onChange={e => setPvalueThreshold(Number(e.target.value))}
-                  className="w-full accent-primary"
-                />
+              <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest">Significance Criterion</p>
+              <div className="text-xs text-gray-600 space-y-1 bg-gray-50 rounded-md p-2.5 border border-gray-100">
+                <p>|Log₂FC| ≥ <span className="font-semibold text-primary">0.585</span></p>
+                <p>p-value ≤ <span className="font-semibold text-primary">0.05</span></p>
               </div>
               <div className="grid grid-cols-2 gap-1 text-center text-xs mt-2">
                 <div className="bg-up-color/10 rounded p-1.5">
@@ -181,8 +161,6 @@ export default function DiffExpression() {
               <div className="overflow-x-auto min-w-[400px]">
                 <VolcanoPlot
                   data={filteredVolcano}
-                  log2fcThreshold={log2fcThreshold}
-                  pvalueThreshold={pvalueThreshold}
                   hoveredId={hoveredId}
                   onHoverChange={setHoveredId}
                 />
