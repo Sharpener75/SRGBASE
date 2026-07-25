@@ -66,7 +66,7 @@ export default function NavBar() {
             <circle cx="14" cy="10" r="6" fill="#F8FAFB" opacity="0.95" />
             <path d="M11 10 Q14 7 17 10" stroke="#1B4F72" strokeWidth="1.5" fill="none" />
           </svg>
-          <span className="text-lg font-semibold tracking-wide">PingBase</span>
+          <span className="text-lg font-semibold tracking-wide">SRGBASE</span>
         </Link>
 
         {/* Desktop nav */}

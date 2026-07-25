@@ -1,6 +1,8 @@
-# PingBase
+# SRGBASE
 
 A public bioinformatics database for small non-coding RNA (sncRNA) sequencing data from laying hen (*Gallus gallus*) research. Built as a full-stack scientific data visualization platform, modeled after academic portals such as piRBase.
+
+**Live site:** https://sharpener75.github.io/SRGBASE/
 
 ---
 
@@ -14,8 +16,8 @@ A public bioinformatics database for small non-coding RNA (sncRNA) sequencing da
 ### Installation
 
 ```bash
-git clone https://github.com/ShiZhangYue/pingbase.git
-cd pingbase
+git clone https://github.com/Sharpener75/SRGBASE.git
+cd SRGBASE
 npm install
 ```
 
@@ -33,6 +35,49 @@ Open your browser at `http://localhost:5173`.
 npm run build
 npm run preview
 ```
+
+---
+
+## Deployment
+
+The site is hosted on **GitHub Pages** at https://sharpener75.github.io/SRGBASE/ and deploys
+automatically: any push to `main` triggers `.github/workflows/deploy.yml`, which runs
+`npm ci && npm run build` and publishes `dist/`. The build runs `tsc` in strict mode, so a
+type error fails the deploy rather than shipping a broken site. Deploys can also be
+re-run by hand from the repository's **Actions** tab (*Deploy to GitHub Pages* →
+*Run workflow*).
+
+One-time setup, already done: in **Settings → Pages**, the build source is set to
+**GitHub Actions**.
+
+### Base path
+
+The site lives at a project path, not a domain root, so `vite.config.ts` sets
+`base: '/SRGBASE/'`. This must match the repository name **including its
+capitalisation** — GitHub Pages paths are case-sensitive, so `/srgbase/` would 404.
+
+`base` is the single source of truth: `src/App.tsx` passes it to React Router via
+`import.meta.env.BASE_URL`, so moving the site means changing one line.
+
+| Destination | `base` value |
+|---|---|
+| `https://<user>.github.io/SRGBASE/` (current) | `'/SRGBASE/'` |
+| Repository renamed | `'/<new-name>/'` |
+| Custom domain, or a `<user>.github.io` repo | `'/'` |
+
+For a custom domain, also add a `public/CNAME` file containing the bare domain and
+point a DNS `CNAME` record at `<user>.github.io`.
+
+### Deep links
+
+GitHub Pages only serves static files, so a shared or refreshed link such as
+`/SRGBASE/diff-expression/miRNA` has no file on disk. `public/404.html` catches those
+requests, encodes the path into a query string, and redirects to `index.html`, where a
+small inline script restores the real URL before React Router mounts. This keeps clean,
+citable URLs instead of falling back to `#`-prefixed ones.
+
+If the site is ever moved to a domain root, set `pathSegmentsToKeep = 0` in
+`public/404.html` (it is `1` for a project path).
 
 ---
 
@@ -87,14 +132,15 @@ npm run preview
 | Styling | Tailwind CSS v3 |
 | Routing | React Router v6 |
 | Charts | Recharts (bar, pie) + D3.js v7 (volcano plot) |
-| Data | Static mock JSON (gallus gallus naming conventions) |
+| Data | Static JSON bundled at build time (no backend) |
+| Hosting | GitHub Pages, deployed by GitHub Actions |
 
 ---
 
 ## Project Structure
 
 ```
-pingbase/
+SRGBASE/
 ├── index.html
 ├── package.json
 ├── vite.config.ts
@@ -144,12 +190,15 @@ pingbase/
 
 ## Data
 
-All data is mock-generated using *Gallus gallus* naming conventions (e.g. `gga-miR-21-5p`, `gga-piR-014823`, `gga-tsRNA-Gly-GCC-5p`). The dataset covers:
+The database is built from real sequencing results, converted from the source Excel
+workbooks into the JSON in `src/data/` by `scripts/excel_to_json.py` (run from the repo
+root; idempotent, so it is safe to re-run when the source data is updated). The dataset
+covers:
 
-- **4,821** total sncRNAs
+- **769,306** total sncRNAs
 - **12** sequencing libraries (3 tissues × 2 timepoints × 2 replicates)
-- **200** differential expression records (~15% up-regulated, ~12% down-regulated)
-- **150** predicted target gene entries
+- **25,080** significant differential expression records (miRNA 88, piRNA 15,934, tsRNA 7,275, rsRNA 1,783)
+- **21,566** predicted target gene entries
 
 ---
 

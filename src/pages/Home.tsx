@@ -56,7 +56,7 @@ export default function Home() {
               Decoding Small Non-Coding RNAs in the Laying Hen Reproductive Axis
             </h1>
             <p className="text-white/80 text-lg leading-relaxed mb-8">
-              PingBase provides a comprehensive atlas of small non-coding RNA expression across the hypothalamus–pituitary–ovary (HPO) axis in <em>Gallus gallus</em> at key reproductive stages.
+              SRGBASE provides a comprehensive atlas of small non-coding RNA expression across the hypothalamus–pituitary–ovary (HPO) axis in <em>Gallus gallus</em> at key reproductive stages.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link
@@ -97,7 +97,7 @@ export default function Home() {
       {/* Site description */}
       <section className="max-w-screen-xl mx-auto px-6 py-10">
         <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-8 max-w-3xl">
-          <h2 className="font-heading text-2xl font-semibold text-primary mb-4">About PingBase</h2>
+          <h2 className="font-heading text-2xl font-semibold text-primary mb-4">About SRGBASE</h2>
           <p className="text-text-main leading-relaxed mb-3">
             This database presents comprehensive profiling of four classes of small non-coding RNAs — miRNA, piRNA, tsRNA, and rsRNA — across three critical tissues of the hypothalamus–pituitary–ovary (HPO) axis in laying hens (<em>Gallus gallus</em>).
           </p>
@@ -105,7 +105,7 @@ export default function Home() {
             Samples were collected at two key reproductive stages: pre-laying (16 weeks) and peak-laying (35 weeks), enabling comparative analysis of sncRNA dynamics during the onset of egg production.
           </p>
           <p className="text-text-main leading-relaxed">
-            PingBase provides tools for exploring expression profiles, differential regulation, and predicted target gene interactions, supporting research into reproductive biology and epigenetic regulation in avian species.
+            SRGBASE provides tools for exploring expression profiles, differential regulation, and predicted target gene interactions, supporting research into reproductive biology and epigenetic regulation in avian species.
           </p>
         </div>
       </section>

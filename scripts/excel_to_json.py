@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Convert Excel source files to JSON for PingBase frontend.
+"""Convert Excel source files to JSON for SRGBASE frontend.
 Idempotent — safe to re-run. Outputs to src/data/.
 Run from repo root: python scripts/excel_to_json.py
 """
@@ -762,7 +762,7 @@ def parse_targets():
 if __name__ == '__main__':
     import sys
 
-    print('PingBase: Excel -> JSON conversion')
+    print('SRGBASE: Excel -> JSON conversion')
     print(f'  Source: {DATA_DIR}')
     print(f'  Output: {OUT_DIR}')
     print()

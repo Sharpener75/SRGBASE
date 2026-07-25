@@ -14,7 +14,7 @@ No test runner or linter is configured.
 
 ## Architecture
 
-**PingBase** is a static single-page React + TypeScript app for visualizing small non-coding RNA (sncRNA) sequencing data from laying hen (*Gallus gallus*) research. There is no backend — all data is static mock JSON in `src/data/`.
+**SRGBASE** is a static single-page React + TypeScript app for visualizing small non-coding RNA (sncRNA) sequencing data from laying hen (*Gallus gallus*) research. There is no backend — all data is static mock JSON in `src/data/`.
 
 ### Routing & Pages
 
