@@ -213,7 +213,7 @@ def parse_overview():
         'totalSncRNAs': total_sncnas,
         'tissues': 3,
         'timepoints': 2,
-        'libraries': 12,
+        'libraries': 18,
         'hpoCallouts': hpo_callouts,
         'readDistribution': read_dist,
     }

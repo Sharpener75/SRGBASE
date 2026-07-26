@@ -49,7 +49,7 @@ export default function RawData() {
         <div>
           <h2 className="font-heading text-lg font-semibold text-primary mb-1">NCBI Sequence Read Archive</h2>
           <p className="text-sm text-gray-600">
-            12 libraries available — 3 tissues × 2 time points × 2 biological replicates
+            18 libraries available — 3 tissues × 2 time points × 3 biological replicates
           </p>
           <p className="text-xs text-gray-400 mt-1">BioProject accession: PRJNA_PLACEHOLDER</p>
         </div>

@@ -196,7 +196,7 @@ root; idempotent, so it is safe to re-run when the source data is updated). The 
 covers:
 
 - **769,306** total sncRNAs
-- **12** sequencing libraries (3 tissues × 2 timepoints × 2 replicates)
+- **18** sequencing libraries (3 tissues × 2 timepoints × 3 replicates)
 - **25,080** significant differential expression records (miRNA 88, piRNA 15,934, tsRNA 7,275, rsRNA 1,783)
 - **21,566** predicted target gene entries
 

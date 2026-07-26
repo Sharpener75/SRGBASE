@@ -2,7 +2,7 @@
   "totalSncRNAs": 769306,
   "tissues": 3,
   "timepoints": 2,
-  "libraries": 12,
+  "libraries": 18,
   "hpoCallouts": {
     "Hypothalamus": {
       "16w": {
