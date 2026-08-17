@@ -213,7 +213,9 @@ def parse_overview():
         'totalSncRNAs': total_sncnas,
         'tissues': 3,
         'timepoints': 2,
-        'libraries': 18,
+        # Counted from the raw-data sheet rather than hardcoded, so the Home
+        # stat card cannot drift out of sync with the library table again.
+        'libraries': len(read_raw_libraries()),
         'hpoCallouts': hpo_callouts,
         'readDistribution': read_dist,
     }
@@ -639,6 +641,49 @@ def parse_diff_expression():
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# 6. raw_data.json  ←  网页数据_rawdata.xlsx
+# ─────────────────────────────────────────────────────────────────────────────
+def read_raw_libraries() -> list:
+    """Sequencing library metadata. Columns:
+    Library ID | Tissue | Stage | Replicate | Clean reads | Genome matched |
+    Mapping rate | SRA accession
+    """
+    wb = openpyxl.load_workbook(os.path.join(DATA_DIR, '网页数据_rawdata.xlsx'),
+                                data_only=True)
+    ws = wb.worksheets[0]
+
+    libs = []
+    for row in ws.iter_rows(min_row=2, values_only=True):
+        if not row or row[0] in (None, ''):
+            continue
+        lib_id, tissue, stage, rep, clean, matched, rate, sra = row[:8]
+
+        # Sheet stores mapping rate as a fraction (0.736); tolerate percentages too.
+        rate = float(rate or 0)
+        if rate <= 1:
+            rate *= 100
+
+        libs.append({
+            'id':              str(lib_id).strip(),
+            'libraryId':       str(lib_id).strip(),
+            'tissue':          norm_tissue(tissue),
+            'timepoint':       norm_time(stage),
+            'replicate':       int(rep),
+            'totalReads_M':    round(float(clean or 0) / 1e6, 1),
+            'mappedReads_M':   round(float(matched or 0) / 1e6, 1),
+            'mappingRate_pct': round(rate, 1),
+            'sraAccession':    str(sra).strip(),
+        })
+    return libs
+
+
+def parse_raw_data():
+    libs = read_raw_libraries()
+    write_json('raw_data.json', libs)
+    print(f'    libraries={len(libs)}')
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # 5. targets.json  ←  靶基因预测.xlsx
 # ─────────────────────────────────────────────────────────────────────────────
 def parse_targets():
@@ -773,6 +818,7 @@ if __name__ == '__main__':
         ('Top50sncRNA.xlsx → top50_pie + top50',       parse_top50),
         ('差异表达_*.xlsx → volcano + significant',    parse_diff_expression),
         ('靶基因预测.xlsx → targets.json',             parse_targets),
+        ('网页数据_rawdata.xlsx → raw_data.json',      parse_raw_data),
     ]
 
     failed = []
