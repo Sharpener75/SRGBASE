@@ -87,7 +87,7 @@ export default function DiffExpression() {
         </span>
       ),
     },
-    { key: 'pvalue', header: 'p-value', sortable: true,
+    { key: 'padj', header: 'adj. p-value (BH)', sortable: true,
       render: (v) => formatPadj(v as number) },
     {
       key: 'regulation',
@@ -132,8 +132,8 @@ export default function DiffExpression() {
             <div className="space-y-4">
               <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest">Significance Criterion</p>
               <div className="text-xs text-gray-600 space-y-1 bg-gray-50 rounded-md p-2.5 border border-gray-100">
-                <p>|Log₂FC| ≥ <span className="font-semibold text-primary">0.585</span></p>
-                <p>p-value ≤ <span className="font-semibold text-primary">0.05</span></p>
+                <p>|Log₂FC| &gt; <span className="font-semibold text-primary">0.585</span></p>
+                <p>BH-adjusted p ≤ <span className="font-semibold text-primary">0.05</span></p>
               </div>
               <div className="grid grid-cols-2 gap-1 text-center text-xs mt-2">
                 <div className="bg-up-color/10 rounded p-1.5">
@@ -173,7 +173,7 @@ export default function DiffExpression() {
             <h3 className="font-semibold text-gray-700 mb-4">
               Significant DE Results
               <span className="ml-2 text-xs font-normal text-gray-400">
-                (|Log₂FC| ≥ 0.585 & p-value ≤ 0.05)
+                (|Log₂FC| &gt; 0.585 & BH-adjusted p ≤ 0.05)
               </span>
             </h3>
             <DataTable

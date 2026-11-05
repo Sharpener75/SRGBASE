@@ -21,7 +21,7 @@ const MARGIN = { top: 20, right: 30, bottom: 50, left: 60 }
 
 // Fixed significance criterion — matches the precomputed Up/Down regulation in the data.
 const LOG2FC_THRESHOLD = 0.585
-const PVALUE_THRESHOLD = 0.05
+const PADJ_THRESHOLD = 0.05  // BH-adjusted p-value
 
 function getColor(d: DEVolcanoRecord) {
   if (d.regulation === 'Up') return UP_COLOR
@@ -61,7 +61,9 @@ export default function VolcanoPlot({
     const g = svg.append('g').attr('transform', `translate(${MARGIN.left},${MARGIN.top})`)
 
     const xExtent = d3.extent(data, d => d.log2FC) as [number, number]
-    const yExtent = [0, d3.max(data, d => -Math.log10(d.pvalue))! * 1.1] as [number, number]
+    const padjLine = -Math.log10(PADJ_THRESHOLD)
+    const yMax = Math.max(d3.max(data, d => -Math.log10(d.padj)) ?? 0, padjLine)
+    const yExtent = [0, yMax * 1.1] as [number, number]
     const xPad = Math.max(Math.abs(xExtent[0]), Math.abs(xExtent[1])) * 1.1
 
     const xScale = d3.scaleLinear().domain([-xPad, xPad]).range([0, W])
@@ -94,18 +96,17 @@ export default function VolcanoPlot({
       .attr('transform', 'rotate(-90)')
       .attr('text-anchor', 'middle')
       .style('font-size', '12px').style('font-family', 'IBM Plex Sans').style('fill', '#555')
-      .text('-log₁₀(p-value)')
+      .text('-log₁₀(adj. p-value)')
 
     // Fixed reference lines at the significance criterion
-    const pvalueLine = -Math.log10(PVALUE_THRESHOLD)
     g.append('line')
       .attr('x1', 0).attr('x2', W)
-      .attr('y1', yScale(pvalueLine)).attr('y2', yScale(pvalueLine))
+      .attr('y1', yScale(padjLine)).attr('y2', yScale(padjLine))
       .attr('stroke', '#999').attr('stroke-dasharray', '4 3').attr('stroke-width', 1)
     g.append('text')
-      .attr('x', 4).attr('y', yScale(pvalueLine) - 4)
+      .attr('x', 4).attr('y', yScale(padjLine) - 4)
       .style('font-size', '9px').style('font-family', 'IBM Plex Sans').style('fill', '#999')
-      .text(`p = ${PVALUE_THRESHOLD}`)
+      .text(`adj. p = ${PADJ_THRESHOLD}`)
 
     g.append('line')
       .attr('x1', xScale(-LOG2FC_THRESHOLD)).attr('x2', xScale(-LOG2FC_THRESHOLD))
@@ -142,7 +143,7 @@ export default function VolcanoPlot({
       .attr('class', 'point')
       .attr('data-id', d => d.id)
       .attr('cx', d => xScale(d.log2FC))
-      .attr('cy', d => yScale(-Math.log10(d.pvalue)))
+      .attr('cy', d => yScale(-Math.log10(d.padj)))
       .attr('r', 4)
       .attr('fill', d => getColor(d))
       .attr('opacity', 0.75)
@@ -208,7 +209,7 @@ export default function VolcanoPlot({
           <p>Log₂FC: <span className="font-medium" style={{ color: getColor(tooltip.record) }}>
             {tooltip.record.log2FC > 0 ? '+' : ''}{tooltip.record.log2FC.toFixed(3)}
           </span></p>
-          <p>p-value: <span className="font-medium">{tooltip.record.pvalue < 0.001 ? tooltip.record.pvalue.toExponential(2) : tooltip.record.pvalue.toFixed(4)}</span></p>
+          <p>adj. p-value: <span className="font-medium">{tooltip.record.padj < 0.001 ? tooltip.record.padj.toExponential(2) : tooltip.record.padj.toFixed(4)}</span></p>
           <p>Tissue: <span className="font-medium">{tooltip.record.tissue}</span></p>
           <span className={`inline-block mt-1 px-1.5 py-0.5 rounded text-white text-[10px] ${
             tooltip.record.regulation === 'Up' ? 'bg-up-color' :

@@ -121,12 +121,19 @@ export default function Targets() {
         <div className="flex-1 min-w-0">
           <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-5">
             <h3 className="font-semibold text-gray-700 mb-4">Target Interactions</h3>
+            {filtered.length === 0 && !searchName.trim() ? (
+              <div className="flex items-center justify-center h-40 text-sm text-gray-500 text-center px-4">
+                No predicted target genes for {type}{binding ? ` (${bindingLabel})` : ''} under the current
+                differential expression criterion (BH-adjusted p ≤ 0.05, |Log₂FC| &gt; 0.585).
+              </div>
+            ) : (
             <DataTable
               data={filtered}
               columns={columns}
               pageSize={20}
               searchable
             />
+            )}
           </div>
         </div>
       </div>

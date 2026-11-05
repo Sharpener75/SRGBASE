@@ -197,8 +197,9 @@ covers:
 
 - **769,306** total sncRNAs
 - **18** sequencing libraries (3 tissues × 2 timepoints × 3 replicates)
-- **25,080** significant differential expression records (miRNA 88, piRNA 15,934, tsRNA 7,275, rsRNA 1,783)
-- **21,566** predicted target gene entries
+- **380** significant differential expression records (miRNA 1, piRNA 283, tsRNA 82, rsRNA 14),
+  defined as BH-adjusted p ≤ 0.05 and |log₂FC| > 0.585 (35w vs. 16w)
+- **126** predicted target gene entries (piRNA 26, tsRNA 100)
 
 ---
 

@@ -505,139 +505,88 @@ def parse_top50():
 
 # ─────────────────────────────────────────────────────────────────────────────
 # 4. diff_expression_{type}_volcano.json + _significant.json
-#    ←  差异表达_<type>.xlsx  × 4
+#    ←  Table S4/S5/S6 ... _pooledBH.xlsx (one sheet per tissue, all classes)
+#    Criterion: BH-adjusted p <= 0.05 AND |log2FC| > 0.585
 # ─────────────────────────────────────────────────────────────────────────────
+DE_FILES = [
+    'Table S4. Normalized expression and differential expression in OV_pooledBH.xlsx',
+    'Table S5. Normalized expression and differential expression in HP_pooledBH.xlsx',
+    'Table S6. Normalized expression and differential expression in HT_pooledBH.xlsx',
+]
+LOG2FC_THRESHOLD = 0.585
+PADJ_THRESHOLD = 0.05
+
+
 def parse_diff_expression():
-    DE_FILES = {
-        'miRNA': '差异表达_miRNA.xlsx',
-        'piRNA': '差异表达_piRNA.xlsx',
-        'tsRNA': '差异表达_tsRNA.xlsx',
-        'rsRNA': '差异表达_rsRNA.xlsx',
-    }
+    volcano = {t: [] for t in SNCNA_TYPES}
+    significant = {t: [] for t in SNCNA_TYPES}
 
-    COL_MAP_CANDIDATES = {
-        'id':         ('seq_id', 'id', 'name', 'sncrna'),
-        'log2FC':     ('log2fc', 'log2_fc', 'log2fold', 'log2 fc'),
-        'pvalue':     ('pvalue', 'p_value', 'p value', 'pval'),
-        'padj':       ('padjust', 'padj', 'fdr', 'adj'),
-        'regulate':   ('regulate', 'regulation', 'sig'),
-        'tissue':     ('tissue',),
-    }
-
-    def find_col_map(header):
-        result = {}
-        for field, cands in COL_MAP_CANDIDATES.items():
-            for j, h in enumerate(header):
-                s = str(h or '').lower().replace(' ', '').replace('_', '').replace('.', '')
-                for c in cands:
-                    cc = c.replace(' ', '').replace('_', '')
-                    if cc in s and field not in result:
-                        result[field] = j
-                        break
-        return result
-
-    for sncna_type, filename in DE_FILES.items():
+    for filename in DE_FILES:
         filepath = os.path.join(DATA_DIR, filename)
-        if not os.path.exists(filepath):
-            print(f'    SKIP {filename} (not found)')
-            continue
+        wb = openpyxl.load_workbook(filepath, read_only=True, data_only=True)
+        ws = wb.worksheets[0]
+        it = ws.iter_rows(values_only=True)
+        header = [str(h or '').strip().lower() for h in next(it)]
+        col = {name: header.index(name) for name in
+               ('seq_id', 'log2fc', 'pvalue', 'padjust', 'regulate', 'tissue', 'class')}
+        print(f'    {filename[:9]}  sheet={ws.title!r}  col={col}')
 
-        wb = openpyxl.load_workbook(filepath, data_only=True)
-        sheet_names = [ws.title for ws in wb.worksheets]
-        print(f'    {filename}: sheets={sheet_names}')
-
-        volcano_records = []
-        significant_records = []
-
-        for ws in wb.worksheets:
-            rows_all = ws_rows(ws)
-            if not rows_all:
+        for row in it:
+            rid = str(row[col['seq_id']] or '').strip()
+            if not rid:
                 continue
+            cls = str(row[col['class']] or '').strip()
+            if cls not in SNCNA_TYPES:
+                raise ValueError(f'{filename}: unknown Class {cls!r} for {rid}')
+            tissue = norm_tissue(row[col['tissue']] or ws.title)
+            if tissue not in TISSUES:
+                raise ValueError(f'{filename}: unknown Tissue {row[col["tissue"]]!r}')
 
-            # Find header row
-            col_map = {}
-            data_start = 0
-            for i, row in enumerate(rows_all[:5]):
-                cm = find_col_map(row)
-                if len(cm) >= 3:
-                    col_map = cm
-                    data_start = i + 1
-                    break
+            log2fc = safe_float(row[col['log2fc']])
+            pvalue = safe_float(row[col['pvalue']], 1.0)
+            padj = safe_float(row[col['padjust']], 1.0)
 
-            if not col_map:
-                # Fallback fixed order: seq_id, fold_change, log2fc, pvalue, padjust, significant, regulate, Tissue
-                col_map = {'id': 0, 'log2FC': 2, 'pvalue': 3, 'padj': 4, 'regulate': 6, 'tissue': 7}
-
-            print(f'      sheet={ws.title!r}  col_map={col_map}  data_rows={len(rows_all)-data_start}')
-
-            # Infer tissue from sheet name if no tissue column
-            sheet_tissue = norm_tissue(ws.title)
-
-            for row in rows_all[data_start:]:
-                if not any(v for v in row if v is not None):
-                    continue
-                rid = str(row[col_map.get('id', 0)] or '').strip()
-                if not rid:
-                    continue
-
-                log2fc = safe_float(row[col_map.get('log2FC', 2)])
-                pvalue = safe_float(row[col_map.get('pvalue', 3)], 1.0)
-                padj = safe_float(row[col_map.get('padj', 4)], 1.0)
-
-                # Regulation from thresholds (|log2FC|>=0.585 AND raw p-value<=0.05)
-                if abs(log2fc) >= 0.585 and pvalue <= 0.05:
-                    reg_raw = str(row[col_map.get('regulate', 6)] or '').strip().lower()
-                    if 'up' in reg_raw:
-                        regulation = 'Up'
-                    elif 'down' in reg_raw:
-                        regulation = 'Down'
-                    else:
-                        regulation = 'Up' if log2fc > 0 else 'Down'
+            if abs(log2fc) > LOG2FC_THRESHOLD and padj <= PADJ_THRESHOLD:
+                reg_raw = str(row[col['regulate']] or '').lower()
+                if 'up' in reg_raw:
+                    regulation = 'Up'
+                elif 'down' in reg_raw:
+                    regulation = 'Down'
                 else:
-                    regulation = 'NS'
+                    regulation = 'Up' if log2fc > 0 else 'Down'
+            else:
+                regulation = 'NS'
 
-                # Tissue: prefer column, fall back to sheet name
-                if 'tissue' in col_map and col_map['tissue'] < len(row):
-                    tissue = norm_tissue(str(row[col_map['tissue']] or ''))
-                else:
-                    tissue = sheet_tissue if sheet_tissue in TISSUES else 'Hypothalamus'
+            rec = {
+                'id': rid,
+                'type': cls,
+                'tissue': tissue,
+                'log2FC': round(log2fc, 6),
+                'pvalue': round(pvalue, 8) if pvalue > 0 else pvalue,
+                'padj': round(padj, 8) if padj > 0 else padj,
+                'regulation': regulation,
+            }
+            volcano[cls].append(rec)
+            if regulation != 'NS':
+                code = {'Hypothalamus': 'HT', 'Pituitary': 'HP', 'Ovary': 'OV'}[tissue]
+                significant[cls].append({**{k: rec[k] for k in ('id', 'type', 'tissue')},
+                                         'comparison': f'{code}-16_vs_{code}-35',
+                                         **{k: rec[k] for k in ('log2FC', 'pvalue', 'padj', 'regulation')}})
+        wb.close()
 
-                # Comparison string
-                tp1 = 'HT' if tissue == 'Hypothalamus' else ('HP' if tissue == 'Pituitary' else 'OV')
-                comparison = f'{tp1}-16_vs_{tp1}-35'
-
-                volcano_records.append({
-                    'id': rid,
-                    'type': sncna_type,
-                    'tissue': tissue,
-                    'log2FC': round(log2fc, 6),
-                    'pvalue': round(pvalue, 8) if pvalue > 0 else pvalue,
-                    'padj': round(padj, 8) if padj > 0 else padj,
-                    'regulation': regulation,
-                })
-
-                if regulation in ('Up', 'Down'):
-                    significant_records.append({
-                        'id': rid,
-                        'type': sncna_type,
-                        'tissue': tissue,
-                        'comparison': comparison,
-                        'log2FC': round(log2fc, 6),
-                        'pvalue': round(pvalue, 8) if pvalue > 0 else pvalue,
-                        'padj': round(padj, 8) if padj > 0 else padj,
-                        'regulation': regulation,
-                    })
-
+    for t in SNCNA_TYPES:
         # Subsample NS records to keep volcano file size manageable
-        sig_records = [r for r in volcano_records if r['regulation'] != 'NS']
-        ns_records  = [r for r in volcano_records if r['regulation'] == 'NS']
+        sig_records = [r for r in volcano[t] if r['regulation'] != 'NS']
+        ns_records = [r for r in volcano[t] if r['regulation'] == 'NS']
+        random.seed(42)
         if len(ns_records) > NS_CAP_PER_FILE:
-            random.seed(42)
             ns_records = random.sample(ns_records, NS_CAP_PER_FILE)
         volcano_out = sig_records + ns_records
         random.shuffle(volcano_out)
-        write_json(f'diff_expression_{sncna_type}_volcano.json', volcano_out)
-        write_json(f'diff_expression_{sncna_type}_significant.json', significant_records)
+        write_json(f'diff_expression_{t}_volcano.json', volcano_out)
+        write_json(f'diff_expression_{t}_significant.json', significant[t])
+        by_tissue = {ti: sum(1 for r in significant[t] if r['tissue'] == ti) for ti in TISSUES}
+        print(f'    {t}: significant by tissue {by_tissue}')
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -684,12 +633,15 @@ def parse_raw_data():
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 5. targets.json  ←  靶基因预测.xlsx
+# 5. targets.json  ←  靶基因预测(新).xlsx
 # ─────────────────────────────────────────────────────────────────────────────
+TARGETS_FILE = '靶基因预测(新).xlsx'
+
+
 def parse_targets():
-    wb = openpyxl.load_workbook(os.path.join(DATA_DIR, '靶基因预测.xlsx'), data_only=True)
+    wb = openpyxl.load_workbook(os.path.join(DATA_DIR, TARGETS_FILE), data_only=True)
     sheet_names = [ws.title for ws in wb.worksheets]
-    print(f'    靶基因预测.xlsx sheets: {sheet_names}')
+    print(f'    {TARGETS_FILE} sheets: {sheet_names}')
 
     COL_CANDIDATES = {
         'id':               ('id', 'sncrna id', 'seq_id', 'name'),
@@ -816,8 +768,8 @@ if __name__ == '__main__':
         ('封面概况.xlsx → overview.json',              parse_overview),
         ('sncRNA_categories.xlsx → counts + length',   parse_categories),
         ('Top50sncRNA.xlsx → top50_pie + top50',       parse_top50),
-        ('差异表达_*.xlsx → volcano + significant',    parse_diff_expression),
-        ('靶基因预测.xlsx → targets.json',             parse_targets),
+        ('Table S4-S6 *_pooledBH.xlsx → volcano + significant', parse_diff_expression),
+        ('靶基因预测(新).xlsx → targets.json',        parse_targets),
         ('网页数据_rawdata.xlsx → raw_data.json',      parse_raw_data),
     ]
 
